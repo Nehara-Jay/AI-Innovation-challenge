@@ -1,20 +1,16 @@
-Ashen_Era_Archive/
-<<<<<<< HEAD
+# Environment & Virtual Environments
 .env
 .venv/
 __pycache__/
 *.py[cod]
+
+# Local Databases & Raw Files
 data/local_qdrant/
 data/raw/
 qdrant_storage/
-data/extracted_archive.json
 qdrant_db/
-*.npz
-=======
-<<<<<<< HEAD
-.env/
-=======
+docs/
 
-.env
->>>>>>> 156a1368ceec58b69d07484a63d6f68f84734101
->>>>>>> 60fdf35812433ec80b3eae8d9017cda75e883312
+# Pre-computed compressed embeddings for zero-API Qdrant initialization
+!data/embeddings.npz
+

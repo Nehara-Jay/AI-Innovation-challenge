@@ -14,6 +14,7 @@ from backend.config import settings
 from backend.models import HealthResponse
 from backend.dependencies import get_qdrant
 from backend.routers.ask import router as ask_router
+from scripts.restore_vectors import restore_qdrant_vectors
 
 
 @asynccontextmanager
@@ -27,13 +28,29 @@ async def lifespan(app: FastAPI):
     try:
         qdrant = get_qdrant()
         collections = [c.name for c in qdrant.get_collections().collections]
+        needs_init = False
+
         if settings.qdrant_collection in collections:
-            count = qdrant.get_collection(settings.qdrant_collection).points_count
-            print(f"Qdrant Connected: collection '{settings.qdrant_collection}' has {count} points.")
+            count = qdrant.get_collection(settings.qdrant_collection).points_count or 0
+            if count == 0:
+                needs_init = True
+            else:
+                print(f"Qdrant Connected: collection '{settings.qdrant_collection}' has {count} points.")
         else:
-            print(f"[Warning] Collection '{settings.qdrant_collection}' not found in Qdrant.")
+            needs_init = True
+
+        # Auto-initialize Qdrant if collection is missing or empty
+        if needs_init:
+            npz_file = settings.data_dir / "embeddings.npz"
+            if npz_file.exists():
+                print(f"[Auto-Init] Empty/missing collection detected. Restoring 3,507 vectors from {npz_file.name}...")
+                total_restored = restore_qdrant_vectors()
+                print(f"[Auto-Init] Successfully initialized '{settings.qdrant_collection}' with {total_restored} points!")
+            else:
+                print(f"[Warning] Collection '{settings.qdrant_collection}' is empty and {npz_file} was not found.")
+
     except Exception as e:
-        print(f"[Warning] Could not connect to Qdrant at startup: {e}")
+        print(f"[Warning] Could not connect or auto-init Qdrant at startup: {e}")
     print("=" * 60)
     yield
     print("Shutting down API server...")
