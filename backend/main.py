@@ -74,6 +74,12 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# Static file serving for visual plates and images
+from fastapi.staticfiles import StaticFiles
+
+if settings.images_dir.exists():
+    app.mount("/images", StaticFiles(directory=str(settings.images_dir)), name="images")
+
 # Connects the routes from ask.py to the main app
 app.include_router(ask_router, prefix="/api")
 
