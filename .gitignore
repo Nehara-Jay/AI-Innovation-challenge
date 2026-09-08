@@ -18,13 +18,3 @@ qdrant_db/
 .env
 >>>>>>> 156a1368ceec58b69d07484a63d6f68f84734101
 >>>>>>> 60fdf35812433ec80b3eae8d9017cda75e883312
-
-Ashen_Era_Archive/
-<<<<<<< HEAD
-.env/
-=======
-
-.env
->>>>>>> 156a1368ceec58b69d07484a63d6f68f84734101
-
-.env.example/
