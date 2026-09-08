@@ -29,14 +29,18 @@ class OrchestratorService:
     ):
         self.retrieval = retrieval
         self.reasoning = reasoning
+        self.images_dir = settings.images_dir
         self.raw_archive_dir = settings.data_dir / "raw" / "Ashen_Era_Archive"
 
     def _get_all_archive_images(self) -> List[Path]:
-        """Collects all image files across the raw archive."""
-        if not self.raw_archive_dir.exists():
-            return []
-        imgs = list(self.raw_archive_dir.rglob("*.png")) + list(self.raw_archive_dir.rglob("*.jpg"))
-        return imgs
+        """Collects all image files from data/images/ or fallback raw archive."""
+        if self.images_dir.exists():
+            imgs = list(self.images_dir.glob("*.png")) + list(self.images_dir.glob("*.jpg"))
+            if imgs:
+                return imgs
+        if self.raw_archive_dir.exists():
+            return list(self.raw_archive_dir.rglob("*.png")) + list(self.raw_archive_dir.rglob("*.jpg"))
+        return []
 
     def find_matching_images(self, question: str, hits: List[SearchHit]) -> List[str]:
         """
@@ -191,13 +195,16 @@ class OrchestratorService:
 
         elapsed_ms = (time.time() - start_time) * 1000.0
 
+        # Convert matched image paths to clean relative paths
+        relative_image_paths = [f"images/{Path(p).name}" for p in matched_image_paths]
+
         return AskResponse(
             question=question,
             answer=answer_text,
             confidence=confidence,
             reasoning_trace=reasoning_steps if request.include_reasoning else [],
             citations=citations,
-            images=matched_image_paths,
+            images=relative_image_paths,
             latency_ms=round(elapsed_ms, 2),
             model_used=settings.llm_model,
         )

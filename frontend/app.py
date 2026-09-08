@@ -27,6 +27,17 @@ if "messages" not in st.session_state:
     ]
 
 
+def get_image_display_target(img_ref: str) -> str:
+    """Resolves an image reference to a valid local path or backend HTTP URL."""
+    p = Path(img_ref)
+    if p.exists():
+        return str(p)
+    local_in_images = Path("data/images") / p.name
+    if local_in_images.exists():
+        return str(local_in_images)
+    return f"{API_BASE_URL.rstrip('/')}/images/{p.name}"
+
+
 def render_message_payload(msg):
     # 1. Reasoning trace expander
     if msg.get("reasoning_trace"):
@@ -42,10 +53,10 @@ def render_message_payload(msg):
         st.markdown("##### 🖼️ Visual Archive Plates (Track 1A)")
         cols = st.columns(min(len(msg["images"]), 3))
         for idx, img_path in enumerate(msg["images"]):
-            p = Path(img_path)
-            if p.exists():
-                with cols[idx % len(cols)]:
-                    st.image(str(p), caption=f"Plate: {p.stem}", use_container_width=True)
+            target = get_image_display_target(img_path)
+            plate_stem = Path(img_path).stem
+            with cols[idx % len(cols)]:
+                st.image(target, caption=f"Plate: {plate_stem}", use_container_width=True)
 
     # 4. Citations
     if msg.get("citations"):

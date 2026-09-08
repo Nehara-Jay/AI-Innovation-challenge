@@ -38,6 +38,7 @@ class Settings(BaseModel):
 
     # Corpus & Data Paths
     data_dir: Path = BASE_DIR / "data"
+    images_dir: Path = BASE_DIR / "data" / "images"
     raw_extracted_json: Path = BASE_DIR / "data" / "extracted_archive.json"
     chunked_json: Path = BASE_DIR / "data" / "chunked_archive.json"
     local_qdrant_dir: Path = BASE_DIR / "data" / "local_qdrant"
