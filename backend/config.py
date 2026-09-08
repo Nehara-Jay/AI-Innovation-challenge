@@ -32,7 +32,7 @@ class Settings(BaseModel):
     # OpenRouter / LLM Reasoning
     openrouter_api_key: str = os.getenv("OPENROUTER_API_KEY", "")
     openrouter_base_url: str = os.getenv("OPENROUTER_BASE_URL", "https://openrouter.ai/api/v1")
-    llm_model: str = os.getenv("LLM_MODEL", "deepseek/deepseek-chat")
+    llm_model: str = os.getenv("LLM_MODEL", "deepseek/deepseek-r1:free")
     temperature: float = 0.2
     max_tokens: int = 4096
 
