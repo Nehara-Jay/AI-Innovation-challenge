@@ -1,32 +1,33 @@
 # SLIIT Codefest 2026 – AI Innovation Challenge
 ## Intelligent Multi-Hop Document Assistant ("The Ashen Era Archive")
 
-An advanced Multimodal Retrieval-Augmented Generation (RAG) and reasoning engine built for the **SLIIT Codefest 2026 AI Competition**. The system processes, indexes, and queries a complex, multi-format corpus consisting of fantasy novels, lore codexes, fan-wiki articles, letters, ledgers, and scanned ephemera.
+An advanced Multimodal Retrieval-Augmented Generation (RAG) and reasoning engine built for the **SLIIT Codefest 2026 AI Competition**. The system processes, indexes, and queries a complex, multi-format corpus consisting of fantasy novels, lore codexes, fan-wiki articles, letters, ledgers, scanned ephemera, and visual figure plates.
 
 ---
 
 ## 📑 Table of Contents
 
-1. [Architecture Overview](#-architecture-overview)
+1. [Key Features & Capabilities](#-key-features--capabilities)
 2. [Prerequisites](#-prerequisites)
-3. [Initial Setup & Installation](#-initial-setup--installation)
+3. [Quickstart Guide (Zero-API Vector Restore)](#-quickstart-guide-zero-api-vector-restore)
 4. [Environment Configuration (`.env`)](#-environment-configuration-env)
-5. [Starting Qdrant with Docker](#-starting-qdrant-with-docker)
-6. [Data Pipeline & Embedding Generation](#-data-pipeline--embedding-generation)
-7. [Testing Semantic Retrieval](#-testing-semantic-retrieval)
-8. [Team Collaboration & Sharing](#-team-collaboration--sharing)
+5. [Running the Application](#-running-the-application)
+6. [API Endpoints Reference](#-api-endpoints-reference)
+7. [Multimodal Vision & Reasoning Engine](#-multimodal-vision--reasoning-engine)
+8. [Data Pipeline & Vector Management](#-data-pipeline--vector-management)
 9. [Project Directory Structure](#-project-directory-structure)
 10. [Useful Commands Cheat Sheet](#-useful-commands-cheat-sheet)
 
 ---
 
-## 🏛 Architecture Overview
+## 🌟 Key Features & Capabilities
 
-* **Data Ingestion & OCR:** Multi-format document parser (`PyMuPDF`, `python-docx`, `PaddleOCR`) extracting PDFs, DOCX, Markdown, Text, and scanned images.
-* **Smart Chunking:** Normalizes oversized documents (including 450k-character narrative files) into uniform, context-preserving RAG chunks (~1,500–2,000 characters) with overlap.
-* **Dense Embeddings:** **Voyage AI (`voyage-3`)** 1024-dimensional vector embeddings with adaptive rate-limit handling and resume checkpoints.
-* **Vector Database:** **Qdrant** running in Docker with persistent storage in `data/local_qdrant/` and web dashboard UI.
-* **Backend API & Reasoning:** FastAPI service with multi-hop retrieval and LLM reasoning.
+* **Multimodal Visual QA (Track 1A):** Automatic figure plate discovery and visual inspection via **Gemini 2.5 Flash Vision** (e.g. heraldry banners, artifact plates, character portraits).
+* **Multi-Hop Reasoning & Conflict Resolution (Track 1B):** Decomposes complex multi-part queries and resolves contradictions between official codices and unreliable in-world ephemera with transparent chain-of-thought traces.
+* **Dense Vector Search:** 1024-dimensional **Voyage AI (`voyage-3`)** embeddings stored in a persistent **Qdrant** vector database (3,507 indexed passages).
+* **Instant Zero-API Teammate Onboarding:** Pre-computed embeddings archive (`data/embeddings.npz`, ~12.4 MB) automatically restores all 3,507 vectors in **~2 seconds** on server startup—no API tokens required.
+* **Interactive Web Interface:** Modern **Streamlit** chat UI with side-by-side visual plate rendering, step-by-step reasoning expanders, and verified source citations.
+* **FastAPI Backend:** Production-ready asynchronous REST API with Swagger documentation and health endpoints.
 
 ---
 
@@ -35,7 +36,7 @@ An advanced Multimodal Retrieval-Augmented Generation (RAG) and reasoning engine
 Before starting, ensure you have the following installed on your machine:
 
 * **Python 3.10+** (Tested on Python 3.13)
-* **[uv](https://docs.astral.sh/uv/)** (Blazing fast Python package and environment manager)
+* **[uv](https://docs.astral.sh/uv/)** (Blazing fast Python package manager)
   ```powershell
   # Install uv on Windows (PowerShell):
   powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
@@ -44,7 +45,7 @@ Before starting, ensure you have the following installed on your machine:
 
 ---
 
-## 🚀 Initial Setup & Installation
+## 🚀 Quickstart Guide (Zero-API Vector Restore)
 
 ### 1. Clone the Repository
 ```bash
@@ -52,16 +53,27 @@ git clone https://github.com/Nehara-Jay/AI-Innovation-challenge.git
 cd AI-Innovation-challenge
 ```
 
-### 2. Create Virtual Environment & Install Dependencies
-Using `uv`, creating the virtual environment and installing all dependencies is instant:
-
+### 2. Install Dependencies
 ```powershell
-# Create virtual environment (.venv)
 uv venv
-
-# Install project dependencies
 uv pip install -r requirements.txt
 ```
+
+### 3. Start Qdrant in Docker
+```powershell
+docker compose up -d
+```
+
+### 4. Start the Backend (Auto-Populates Qdrant in 2 Seconds!)
+When the backend boots, it detects that Qdrant is fresh and **automatically restores all 3,507 pre-computed vectors** from `data/embeddings.npz`:
+```powershell
+uv run uvicorn backend.main:app --reload --port 8000
+```
+
+> **Manual Restore (Optional):** You can also manually restore vectors at any time by running:
+> ```powershell
+> uv run python scripts/restore_vectors.py
+> ```
 
 ---
 
@@ -70,7 +82,7 @@ uv pip install -r requirements.txt
 Create a `.env` file in the root directory (or copy from `.env.example`):
 
 ```env
-# Voyage AI Configuration
+# Voyage AI Configuration (Optional for querying pre-built vectors)
 VOYAGE_API_KEY=pa-your-voyage-api-key-here
 VOYAGE_MODEL=voyage-3
 
@@ -80,109 +92,100 @@ QDRANT_API_KEY=
 QDRANT_COLLECTION_NAME=ashen_era_corpus
 
 # LLM / Reasoning Model (OpenRouter / DeepSeek / Gemini)
-OPENROUTER_API_KEY=your-openrouter-key-here
-LLM_MODEL=deepseek/deepseek-r1:free
-```
-
-> **Note:** To get a Voyage AI key, sign up at [dash.voyageai.com](https://dash.voyageai.com/). Free accounts receive 200M free tokens.
-
----
-
-## 🐳 Starting Qdrant with Docker
-
-The vector database is managed via Docker with persistent volume storage in `data/local_qdrant/`.
-
-### 1. Start Qdrant
-Ensure Docker Desktop is open and running, then execute in cmd:
-
-```powershell
-docker compose up -d
-```
-
-### 2. Access the Interactive Web Dashboard
-Open your browser and navigate to:
-👉 **[http://localhost:6333/dashboard](http://localhost:6333/dashboard)**
-
-You can view the `ashen_era_corpus` collection, total points, payload attributes, and perform vector searches directly from the browser!
-
-### 3. Stop / Restart Qdrant
-```powershell
-# Stop Qdrant container
-docker compose down
-
-# Check container status
-docker ps
+OPENROUTER_API_KEY=sk-or-v1-your-openrouter-key-here
+LLM_MODEL=deepseek/deepseek-chat
+TEMPERATURE=0.1
+MAX_TOKENS=1024
 ```
 
 ---
 
-## 🔄 Data Pipeline & Embedding Generation
+## 🖥 Running the Application
 
-If you need to re-extract or re-embed the documents:
-
-### 1. Ingest Documents & OCR (Optional if `extracted_archive.json` exists)
-Extracts text and runs OCR on all raw archive files:
+### 1. Run the FastAPI Backend Server
 ```powershell
-uv run python scripts/extract_archive.py
+uv run uvicorn backend.main:app --reload --port 8000
 ```
+* **Interactive API Docs (Swagger):** [http://localhost:8000/docs](http://localhost:8000/docs)
+* **Health Check:** [http://localhost:8000/health](http://localhost:8000/health)
 
-### 2. Check Dataset Stats
-Validates unique source files, chunk sizes, and extracted types:
+### 2. Run the Streamlit Chat UI
+In a separate terminal window:
 ```powershell
-uv run python scripts/check_json.py
+uv run streamlit run frontend/app.py
 ```
-
-### 3. Generate Voyage AI Embeddings & Index to Qdrant
-Chunks the dataset, generates `voyage-3` embeddings, and uploads points directly to Qdrant:
-
-```powershell
-# Fast batch run (3,464 chunks in ~30s with billing profile added)
-uv run python scripts/embed_to_qdrant.py --batch-size 128 --delay 0
-
-# Free-tier throttled run (3 RPM / 10k TPM limit)
-uv run python scripts/embed_to_qdrant.py --batch-size 16 --delay 21
-
-# Test / Dry run on first 10 chunks
-uv run python scripts/embed_to_qdrant.py --limit 10
-```
+* **Web UI:** [http://localhost:8501](http://localhost:8501)
 
 ---
 
-## 🔍 Testing Semantic Retrieval
+## 📡 API Endpoints Reference
 
-Verify that similarity search is working against the Qdrant vector store:
+### `POST /api/ask`
+End-to-end Multi-Hop Question Answering with reasoning traces, source citations, and visual plates.
 
-```powershell
-uv run python scripts/test_search.py
+**Request Body:**
+```json
+{
+  "question": "What is the central emblem on the banner of House Morvain?",
+  "max_hops": 2,
+  "top_k_per_hop": 5,
+  "include_reasoning": true
+}
 ```
 
-Sample code to search programmatically:
-```python
-from backend.services.retrieval import retrieval_service
-
-# Search for relevant context
-results = retrieval_service.search("Who commanded Blackford in 285 AS?", top_k=3)
-
-for r in results:
-    print(f"[{r['score']:.4f}] {r['source']} (Page {r['page']}) -> {r['content'][:150]}...")
+**Response Payload:**
+```json
+{
+  "question": "What is the central emblem on the banner of House Morvain?",
+  "answer": "The central emblem on the banner of House Morvain is a shield featuring two crossed golden keys...",
+  "confidence": 0.9,
+  "reasoning_trace": [
+    {
+      "step_number": 1,
+      "sub_query": "central emblem on the banner of House Morvain",
+      "thought": "Executing primary search...",
+      "evidence_found": ["..."]
+    }
+  ],
+  "citations": [
+    {
+      "citation_id": 1,
+      "source": "Visual Plate: atmo_heraldry_faction_house_morvain.png",
+      "page": 1,
+      "type": "document",
+      "excerpt": "..."
+    }
+  ],
+  "images": [
+    "D:\\Projects\\CodeFest\\AI-Innovation-challenge\\data\\raw\\Ashen_Era_Archive\\wiki\\images\\atmo_heraldry_faction_house_morvain.png"
+  ],
+  "latency_ms": 1420.5,
+  "model_used": "deepseek/deepseek-chat"
+}
 ```
+
+### `POST /api/search`
+Direct dense semantic search against Qdrant.
 
 ---
 
-## 👥 Team Collaboration & Sharing
+## 🧠 Multimodal Vision & Reasoning Engine
 
-Because Qdrant runs in Docker on port `6333`, team members on the same local network (Wi-Fi/LAN) can connect to your vector store without having to re-embed the dataset on their machines:
-
-1. Find your host machine's local IP address:
-   ```powershell
-   ipconfig
-   # Look for IPv4 Address, e.g. 192.168.1.50
-   ```
-2. Teammates update their `.env`:
-   ```env
-   QDRANT_URL=http://192.168.1.50:6333
-   ```
-3. Teammates can immediately query the vector database and access the dashboard at `http://192.168.1.50:6333/dashboard`.
+```
+User Query
+   │
+   ├─► Query Decomposition (Sub-queries 1 & 2)
+   │
+   ├─► Multi-Hop Dense Retrieval (Voyage-3 + Qdrant)
+   │
+   ├─► Image Discovery & Plate Relevance Scoring
+   │      │
+   │      └─► Gemini 2.5 Flash Vision Inspection (Track 1A)
+   │
+   ├─► Conflict Resolution Engine (Codices vs Ephemera)
+   │
+   └─► DeepSeek Synthesis ──► Streamlit UI (Answer + Plates + CoT + Citations)
+```
 
 ---
 
@@ -193,49 +196,36 @@ AI-Innovation-challenge/
 ├── .env                              # Environment variables & API keys (ignored in git)
 ├── .env.example                      # Template for environment variables
 ├── .gitignore                        # Git ignore file
-├── docker-compose.yml                # Docker configuration for shared Qdrant container
+├── docker-compose.yml                # Docker configuration for local Qdrant container
 ├── README.md                         # Project documentation & startup guide
 ├── requirements.txt                  # Python dependencies
-├── ai_chat_log.md                    # Interaction logs
 │
 ├── data/
-│   ├── extracted_archive.json        # Raw extracted multimodal corpus (~5.6 MB)
-│   ├── chunked_archive.json          # 3,464 normalized RAG chunks
-│   └── local_qdrant/                 # Persistent Qdrant vector database storage
-│       ├── aliases/
-│       ├── collections/
-│       │   └── ashen_era_corpus/     # Indexed 1024-dim Voyage-3 vectors & metadata
-│       └── raft_state.json
-│
-├── data_pipeline/
-│   ├── chunker.py                    # Recursive smart text chunker & normalizer
-│   ├── embed_archive.py              # Embedding & Qdrant ingestion core pipeline
-│   ├── check_json.py                 # Dataset verification script
-│   └── scripts/
-│       └── extract_archive.py        # Multimodal document & OCR extractor
+│   ├── embeddings.npz                # Pre-computed Voyage-3 vectors (3,507 points, 12.4 MB)
+│   ├── chunked_archive.json          # 3,507 normalized RAG chunks with metadata
+│   ├── extracted_archive.json        # Raw extracted multimodal corpus
+│   └── local_qdrant/                 # Local Qdrant volume storage (gitignored)
 │
 ├── backend/                          # FastAPI Backend Application
-│   ├── main.py                       # FastAPI application entrypoint
+│   ├── main.py                       # FastAPI entrypoint with automated Qdrant auto-init
 │   ├── config.py                     # App settings & environment loader
-│   ├── dependencies.py               # Dependency injection
-│   ├── models.py                     # Pydantic schemas & response models
+│   ├── dependencies.py               # Qdrant, Voyage, & OpenRouter client singletons
+│   ├── models.py                     # Pydantic schemas (AskRequest, AskResponse, etc.)
 │   ├── routers/
-│   │   ├── _init.py
-│   │   └── ask.py                    # Query & Ask API routes
+│   │   └── ask.py                    # /api/ask and /api/search endpoints
 │   └── services/
-│       ├── init_.py
-│       ├── retrieval.py              # Semantic vector search service
-│       ├── reasoning.py              # Multi-hop reasoning engine
-│       └── orchestrator.py           # Pipeline orchestration
+│       ├── retrieval.py              # Voyage-3 embedding & multi-hop Qdrant search
+│       ├── reasoning.py              # LLM reasoning, conflict resolution & Gemini vision
+│       └── orchestrator.py           # End-to-end multimodal multi-hop orchestrator
 │
 ├── frontend/
-│   └── app.py                        # Web UI application (Streamlit / Gradio)
+│   └── app.py                        # Streamlit web UI with image plate rendering
 │
 └── scripts/                          # Utility & CLI scripts
-    ├── check_json.py                 # Quick dataset inspection
-    ├── embed_to_qdrant.py            # CLI tool to run Voyage AI embedding
-    ├── extract_archive.py            # OCR & archive extraction tool
-    └── test_search.py                # Semantic retrieval verification test
+    ├── restore_vectors.py            # Instant 2-second vector database restore
+    ├── test_pipeline.py              # Terminal end-to-end QA pipeline test
+    ├── embed_to_qdrant.py            # Full dataset embedding script with Voyage AI
+    └── check_json.py                 # Dataset verification & chunk stats inspection
 ```
 
 ---
@@ -247,7 +237,8 @@ AI-Innovation-challenge/
 | **Start Qdrant (Docker)** | `docker compose up -d` |
 | **Stop Qdrant (Docker)** | `docker compose down` |
 | **Open Qdrant Dashboard** | Visit `http://localhost:6333/dashboard` |
-| **Run Embeddings Pipeline** | `uv run python scripts/embed_to_qdrant.py` |
-| **Run Retrieval Search Test** | `uv run python scripts/test_search.py` |
-| **Inspect Dataset Chunks** | `uv run python scripts/check_json.py` |
+| **Start FastAPI Server** | `uv run uvicorn backend.main:app --reload --port 8000` |
+| **Start Streamlit Web UI** | `uv run streamlit run frontend/app.py` |
+| **Restore Qdrant Vectors** | `uv run python scripts/restore_vectors.py` |
+| **Test QA Pipeline (Terminal)** | `uv run python scripts/test_pipeline.py` |
 | **Install New Dependency** | `uv pip install <package_name>` |
