@@ -72,8 +72,9 @@ class AskResponse(BaseModel):
     confidence: float = Field(default=1.0, ge=0.0, le=1.0, description="Estimated confidence score (0.0 to 1.0)")
     reasoning_trace: List[ReasoningStep] = Field(default_factory=list, description="Step-by-step multi-hop reasoning trace")
     citations: List[SourceCitation] = Field(default_factory=list, description="Verified source document citations")
+    images: List[str] = Field(default_factory=list, description="Relevant image plate file paths")
     latency_ms: float = Field(default=0.0, description="Total processing time in milliseconds")
-    model_used: str = Field(default="deepseek/deepseek-r1:free", description="LLM model used for synthesis")
+    model_used: str = Field(default="deepseek/deepseek-chat", description="LLM model used for synthesis")
 
 
 # ---------------------------------------------------------
