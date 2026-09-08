@@ -1,3 +1,11 @@
 Ashen_Era_Archive/
-
 .env
+.venv/
+__pycache__/
+*.py[cod]
+data/local_qdrant/
+data/raw/
+qdrant_storage/
+data/extracted_archive.json
+qdrant_db/
+*.npz
