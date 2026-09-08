@@ -1,0 +1,602 @@
+[
+  {
+    "id": "B001",
+    "track": "1B",
+    "split": "development",
+    "question": "Which accord was ultimately won by the faction of which Ederon Fellgard is a member?",
+    "gold_answer": "The Leaden Accord",
+    "difficulty": "medium",
+    "hops": 2,
+    "category": "character-faction-conflict",
+    "expected_sources": [
+      "ederon_fellgard.md",
+      "the_leaden_accord.md"
+    ],
+    "required_entities": [
+      "Ederon Fellgard",
+      "The Iron-Ring Cartel",
+      "The Leaden Accord"
+    ],
+    "notes": "Requires identifying Ederon Fellgard's faction and then determining which accord that faction won."
+  },
+  {
+    "id": "B002",
+    "track": "1B",
+    "split": "development",
+    "question": "Which war did Ravena Stormwell's own faction ultimately win?",
+    "gold_answer": "The War of Drowned Light",
+    "difficulty": "medium",
+    "hops": 2,
+    "category": "character-faction-conflict",
+    "expected_sources": [
+      "ravena_stormwell.md",
+      "the_war_of_drowned_light.md"
+    ],
+    "required_entities": [
+      "Ravena Stormwell",
+      "The Silent Choir",
+      "The War of Drowned Light"
+    ],
+    "notes": "Requires resolving Ravena Stormwell's faction before finding the war won by that faction."
+  },
+  {
+    "id": "B003",
+    "track": "1B",
+    "split": "development",
+    "question": "Which war was won by the organization that included Isolde Mournvale as one of its members?",
+    "gold_answer": "The War of Drowned Light",
+    "difficulty": "medium",
+    "hops": 2,
+    "category": "character-faction-conflict",
+    "expected_sources": [
+      "isolde_mournvale.md",
+      "the_war_of_drowned_light.md"
+    ],
+    "required_entities": [
+      "Isolde Mournvale",
+      "The Silent Choir",
+      "The War of Drowned Light"
+    ],
+    "notes": "Requires identifying Isolde Mournvale's organization and then finding the conflict it won."
+  },
+  {
+    "id": "B004",
+    "track": "1B",
+    "split": "development",
+    "question": "Which accord was won by the faction to which Cerys Sablewood the Ashen belongs?",
+    "gold_answer": "The Accord of Mournthrone",
+    "difficulty": "medium",
+    "hops": 2,
+    "category": "character-faction-conflict",
+    "expected_sources": [
+      "cerys_sablewood_the_ashen.md",
+      "the_accord_of_mournthrone.md"
+    ],
+    "required_entities": [
+      "Cerys Sablewood the Ashen",
+      "The Ashen Vanguard",
+      "The Accord of Mournthrone"
+    ],
+    "notes": "Requires linking Cerys to the Ashen Vanguard and then identifying the accord won by that faction."
+  },
+  {
+    "id": "B005",
+    "track": "1B",
+    "split": "development",
+    "question": "Which war was won by the faction of which Brannoc Ironmere the Red-Handed is a member?",
+    "gold_answer": "The War of Endless Vigil",
+    "difficulty": "medium",
+    "hops": 2,
+    "category": "character-faction-conflict",
+    "expected_sources": [
+      "brannoc_ironmere_the_red_handed.md",
+      "the_war_of_endless_vigil.md"
+    ],
+    "required_entities": [
+      "Brannoc Ironmere the Red-Handed",
+      "The Bleeding Crown",
+      "The War of Endless Vigil"
+    ],
+    "notes": "Requires finding Brannoc's faction and then the war recorded as that faction's victory."
+  },
+  {
+    "id": "B006",
+    "track": "1B",
+    "split": "development",
+    "question": "Which accord was won by the faction that includes Aldous Wrenfield the Last Warden?",
+    "gold_answer": "The Leaden Accord",
+    "difficulty": "medium",
+    "hops": 2,
+    "category": "character-faction-conflict",
+    "expected_sources": [
+      "aldous_wrenfield_the_last_warden.md",
+      "the_leaden_accord.md"
+    ],
+    "required_entities": [
+      "Aldous Wrenfield the Last Warden",
+      "The Iron-Ring Cartel",
+      "The Leaden Accord"
+    ],
+    "notes": "Requires identifying Aldous's faction and determining which accord that faction won."
+  },
+  {
+    "id": "B007",
+    "track": "1B",
+    "split": "development",
+    "question": "Whose dominion encompasses the lair of the Gravemaw Wyrm?",
+    "gold_answer": "The Bleeding Crown",
+    "difficulty": "medium",
+    "hops": 2,
+    "category": "creature-location-ruler",
+    "expected_sources": [
+      "gravemaw_wyrm.md",
+      "marrowwell_abbey.md"
+    ],
+    "required_entities": [
+      "Gravemaw Wyrm",
+      "Marrowwell Abbey",
+      "The Bleeding Crown"
+    ],
+    "notes": "Requires locating the Gravemaw Wyrm's lair and then identifying who rules that location."
+  },
+  {
+    "id": "B008",
+    "track": "1B",
+    "split": "development",
+    "question": "Which faction rules the citadel in which Vault Chitin makes its lair?",
+    "gold_answer": "House Morvain",
+    "difficulty": "medium",
+    "hops": 2,
+    "category": "creature-location-ruler",
+    "expected_sources": [
+      "vault_chitin.md",
+      "greyfell_citadel.md"
+    ],
+    "required_entities": [
+      "Vault Chitin",
+      "Greyfell Citadel",
+      "House Morvain"
+    ],
+    "notes": "Requires resolving the creature's lair and then the ruling power of that citadel."
+  },
+  {
+    "id": "B009",
+    "track": "1B",
+    "split": "development",
+    "question": "Which noble power rules the citadel where the Thorn Wraith lairs?",
+    "gold_answer": "House Morvain",
+    "difficulty": "medium",
+    "hops": 2,
+    "category": "creature-location-ruler",
+    "expected_sources": [
+      "thorn_wraith.md",
+      "ironfell_citadel.md"
+    ],
+    "required_entities": [
+      "Thorn Wraith",
+      "Ironfell Citadel",
+      "House Morvain"
+    ],
+    "notes": "Requires finding the Thorn Wraith's lair and then identifying the power ruling that location."
+  },
+  {
+    "id": "B010",
+    "track": "1B",
+    "split": "development",
+    "question": "Which faction controls the location where the Weeping Lurker makes its lair?",
+    "gold_answer": "The Ashen Vanguard",
+    "difficulty": "medium",
+    "hops": 2,
+    "category": "creature-location-ruler",
+    "expected_sources": [
+      "weeping_lurker.md",
+      "embermarch.md"
+    ],
+    "required_entities": [
+      "Weeping Lurker",
+      "Embermarch",
+      "The Ashen Vanguard"
+    ],
+    "notes": "Requires following the Weeping Lurker from its lair to the faction ruling Embermarch."
+  },
+  {
+    "id": "B011",
+    "track": "1B",
+    "split": "development",
+    "question": "Which organization rules the settlement where the Pale Stag of Omens is known to lair?",
+    "gold_answer": "The Iron-Ring Cartel",
+    "difficulty": "medium",
+    "hops": 2,
+    "category": "creature-location-ruler",
+    "expected_sources": [
+      "pale_stag_of_omens.md",
+      "hollowreach.md"
+    ],
+    "required_entities": [
+      "Pale Stag of Omens",
+      "Hollowreach",
+      "The Iron-Ring Cartel"
+    ],
+    "notes": "Requires identifying Hollowreach as the creature's lair and then determining its ruling organization."
+  },
+  {
+    "id": "B012",
+    "track": "1B",
+    "split": "development",
+    "question": "Which faction governs the settlement that contains the Cinder Shrike's lair?",
+    "gold_answer": "The Bleeding Crown",
+    "difficulty": "medium",
+    "hops": 2,
+    "category": "creature-location-ruler",
+    "expected_sources": [
+      "cinder_shrike.md",
+      "mournwatch.md"
+    ],
+    "required_entities": [
+      "Cinder Shrike",
+      "Mournwatch",
+      "The Bleeding Crown"
+    ],
+    "notes": "Requires linking the Cinder Shrike to Mournwatch and then identifying Mournwatch's ruler."
+  },
+  {
+    "id": "B013",
+    "track": "1B",
+    "split": "development",
+    "question": "Which faction rules the stronghold where the Salt-Blind Leviathan lairs?",
+    "gold_answer": "The Ashen Vanguard",
+    "difficulty": "medium",
+    "hops": 2,
+    "category": "creature-location-ruler",
+    "expected_sources": [
+      "salt_blind_leviathan.md",
+      "greythrone.md"
+    ],
+    "required_entities": [
+      "Salt-Blind Leviathan",
+      "Greythrone",
+      "The Ashen Vanguard"
+    ],
+    "notes": "Requires identifying Greythrone as the lair and then determining its ruling faction."
+  },
+  {
+    "id": "B014",
+    "track": "1B",
+    "split": "development",
+    "question": "To which location must one travel to examine the relic wielded by Cerys Sablewood the Ashen since 356 AS?",
+    "gold_answer": "Gloamreach",
+    "difficulty": "hard",
+    "hops": 3,
+    "category": "character-artifact-location",
+    "expected_sources": [
+      "cerys_sablewood_the_ashen.md",
+      "the_cinder_wrought_aegis.md"
+    ],
+    "required_entities": [
+      "Cerys Sablewood the Ashen",
+      "The Cinder-Wrought Aegis",
+      "Gloamreach"
+    ],
+    "notes": "Requires identifying Cerys's relic and then determining where that artifact is housed."
+  },
+  {
+    "id": "B015",
+    "track": "1B",
+    "split": "development",
+    "question": "Which power rules the location where The Cinder-Wrought Aegis is housed?",
+    "gold_answer": "House Morvain",
+    "difficulty": "medium",
+    "hops": 2,
+    "category": "artifact-location-ruler",
+    "expected_sources": [
+      "the_cinder_wrought_aegis.md",
+      "gloamreach.md"
+    ],
+    "required_entities": [
+      "The Cinder-Wrought Aegis",
+      "Gloamreach",
+      "House Morvain"
+    ],
+    "notes": "Requires finding the Aegis's housing location and then identifying the power ruling Gloamreach."
+  },
+  {
+    "id": "B016",
+    "track": "1B",
+    "split": "development",
+    "question": "Which faction rules the location in which The Crown of Burned Names is housed?",
+    "gold_answer": "The Bleeding Crown",
+    "difficulty": "medium",
+    "hops": 2,
+    "category": "artifact-location-ruler",
+    "expected_sources": [
+      "the_crown_of_burned_names.md",
+      "blackford.md"
+    ],
+    "required_entities": [
+      "The Crown of Burned Names",
+      "Blackford",
+      "The Bleeding Crown"
+    ],
+    "notes": "Requires following the artifact to Blackford and identifying the faction ruling Blackford."
+  },
+  {
+    "id": "B017",
+    "track": "1B",
+    "split": "development",
+    "question": "Which organization controls the abbey where The Sceptre of Final Winter is housed?",
+    "gold_answer": "The Silent Choir",
+    "difficulty": "medium",
+    "hops": 2,
+    "category": "artifact-location-ruler",
+    "expected_sources": [
+      "the_sceptre_of_final_winter.md",
+      "palewell_abbey.md"
+    ],
+    "required_entities": [
+      "The Sceptre of Final Winter",
+      "Palewell Abbey",
+      "The Silent Choir"
+    ],
+    "notes": "Requires identifying the artifact's housing location and then the organization ruling that abbey."
+  },
+  {
+    "id": "B018",
+    "track": "1B",
+    "split": "development",
+    "question": "Which faction rules the place where The Silent Psalter is housed?",
+    "gold_answer": "The Ashen Vanguard",
+    "difficulty": "medium",
+    "hops": 2,
+    "category": "artifact-location-ruler",
+    "expected_sources": [
+      "the_silent_psalter.md",
+      "marrowwatch.md"
+    ],
+    "required_entities": [
+      "The Silent Psalter",
+      "Marrowwatch",
+      "The Ashen Vanguard"
+    ],
+    "notes": "Requires finding the artifact's housing location and then the faction ruling Marrowwatch."
+  },
+  {
+    "id": "B019",
+    "track": "1B",
+    "split": "development",
+    "question": "Which house rules the stronghold in which the Diadem of Sorrowgate is housed?",
+    "gold_answer": "House Morvain",
+    "difficulty": "medium",
+    "hops": 2,
+    "category": "artifact-location-ruler",
+    "expected_sources": [
+      "diadem_of_sorrowgate.md",
+      "gloammarch.md"
+    ],
+    "required_entities": [
+      "Diadem of Sorrowgate",
+      "Gloammarch",
+      "House Morvain"
+    ],
+    "notes": "Requires identifying Gloammarch as the Diadem's housing location and then finding its ruler."
+  },
+  {
+    "id": "B020",
+    "track": "1B",
+    "split": "development",
+    "question": "Which faction rules the settlement where The Psalter of Seven Sorrows is housed?",
+    "gold_answer": "The Bleeding Crown",
+    "difficulty": "medium",
+    "hops": 2,
+    "category": "artifact-location-ruler",
+    "expected_sources": [
+      "the_psalter_of_seven_sorrows.md",
+      "fenthrone.md"
+    ],
+    "required_entities": [
+      "The Psalter of Seven Sorrows",
+      "Fenthrone",
+      "The Bleeding Crown"
+    ],
+    "notes": "Requires resolving the artifact's housing location before identifying Fenthrone's ruling faction."
+  },
+  {
+    "id": "B021",
+    "track": "1B",
+    "split": "holdout",
+    "question": "Which accord was won by the faction to which Sabelle Blackspire belongs?",
+    "gold_answer": "The Accord of Mournthrone",
+    "difficulty": "medium",
+    "hops": 2,
+    "category": "character-faction-conflict",
+    "expected_sources": [
+      "sabelle_blackspire.md",
+      "the_accord_of_mournthrone.md"
+    ],
+    "required_entities": [
+      "Sabelle Blackspire",
+      "The Ashen Vanguard",
+      "The Accord of Mournthrone"
+    ],
+    "notes": "Holdout question. Requires linking Sabelle's membership to the faction's recorded victory."
+  },
+  {
+    "id": "B022",
+    "track": "1B",
+    "split": "holdout",
+    "question": "Which accord was won by the faction that includes Malchior Cindervale the Flame-Touched?",
+    "gold_answer": "The Leaden Accord",
+    "difficulty": "medium",
+    "hops": 2,
+    "category": "character-faction-conflict",
+    "expected_sources": [
+      "malchior_cindervale_the_flame_touched.md",
+      "the_leaden_accord.md"
+    ],
+    "required_entities": [
+      "Malchior Cindervale the Flame-Touched",
+      "The Iron-Ring Cartel",
+      "The Leaden Accord"
+    ],
+    "notes": "Holdout question. Requires identifying Malchior's faction and then its victorious accord."
+  },
+  {
+    "id": "B023",
+    "track": "1B",
+    "split": "holdout",
+    "question": "Which war was won by the faction to which Bryony Nightbrook belongs?",
+    "gold_answer": "The War of Endless Vigil",
+    "difficulty": "medium",
+    "hops": 2,
+    "category": "character-faction-conflict",
+    "expected_sources": [
+      "bryony_nightbrook.md",
+      "the_war_of_endless_vigil.md"
+    ],
+    "required_entities": [
+      "Bryony Nightbrook",
+      "The Bleeding Crown",
+      "The War of Endless Vigil"
+    ],
+    "notes": "Holdout question. Requires resolving Bryony's affiliation before identifying the victorious war."
+  },
+  {
+    "id": "B024",
+    "track": "1B",
+    "split": "holdout",
+    "question": "Which war was ultimately won by the organization of which Morwenna Morvain is a member?",
+    "gold_answer": "The War of Drowned Light",
+    "difficulty": "medium",
+    "hops": 2,
+    "category": "character-faction-conflict",
+    "expected_sources": [
+      "morwenna_morvain.md",
+      "the_war_of_drowned_light.md"
+    ],
+    "required_entities": [
+      "Morwenna Morvain",
+      "The Silent Choir",
+      "The War of Drowned Light"
+    ],
+    "notes": "Holdout question. Requires identifying Morwenna's organization and the war won by that organization."
+  },
+  {
+    "id": "B025",
+    "track": "1B",
+    "split": "holdout",
+    "question": "Which faction rules the location used as the lair of the Lantern Moth Swarm?",
+    "gold_answer": "The Bleeding Crown",
+    "difficulty": "medium",
+    "hops": 2,
+    "category": "creature-location-ruler",
+    "expected_sources": [
+      "lantern_moth_swarm.md",
+      "ashreach.md"
+    ],
+    "required_entities": [
+      "Lantern Moth Swarm",
+      "Ashreach",
+      "The Bleeding Crown"
+    ],
+    "notes": "Holdout question. Requires resolving Ashreach as the swarm's lair and then its ruler."
+  },
+  {
+    "id": "B026",
+    "track": "1B",
+    "split": "holdout",
+    "question": "Which faction rules the territory containing the Ashfall Colossus's lair?",
+    "gold_answer": "The Ashen Vanguard",
+    "difficulty": "medium",
+    "hops": 2,
+    "category": "creature-location-ruler",
+    "expected_sources": [
+      "ashfall_colossus.md",
+      "embermarch.md"
+    ],
+    "required_entities": [
+      "Ashfall Colossus",
+      "Embermarch",
+      "The Ashen Vanguard"
+    ],
+    "notes": "Holdout question. Requires locating the creature and then resolving the ruler of Embermarch."
+  },
+  {
+    "id": "B027",
+    "track": "1B",
+    "split": "holdout",
+    "question": "Which faction rules the keep where the Chalice of Ashdeep is housed?",
+    "gold_answer": "The Bleeding Crown",
+    "difficulty": "medium",
+    "hops": 2,
+    "category": "artifact-location-ruler",
+    "expected_sources": [
+      "chalice_of_ashdeep.md",
+      "crookgate_keep.md"
+    ],
+    "required_entities": [
+      "Chalice of Ashdeep",
+      "Crookgate Keep",
+      "The Bleeding Crown"
+    ],
+    "notes": "Holdout question. Requires locating the Chalice in Crookgate Keep and identifying the keep's ruler."
+  },
+  {
+    "id": "B028",
+    "track": "1B",
+    "split": "holdout",
+    "question": "Which faction governs the keep in which The Hollow Edge is housed?",
+    "gold_answer": "The Bleeding Crown",
+    "difficulty": "medium",
+    "hops": 2,
+    "category": "artifact-location-ruler",
+    "expected_sources": [
+      "the_hollow_edge.md",
+      "crookgate_keep.md"
+    ],
+    "required_entities": [
+      "The Hollow Edge",
+      "Crookgate Keep",
+      "The Bleeding Crown"
+    ],
+    "notes": "Holdout question. Requires resolving the artifact's housing location before identifying its ruler."
+  },
+  {
+    "id": "B029",
+    "track": "1B",
+    "split": "holdout",
+    "question": "Which house rules the citadel where Ederon Fellgard serves?",
+    "gold_answer": "House Morvain",
+    "difficulty": "medium",
+    "hops": 2,
+    "category": "character-location-ruler",
+    "expected_sources": [
+      "ederon_fellgard.md",
+      "greyfell_citadel.md"
+    ],
+    "required_entities": [
+      "Ederon Fellgard",
+      "Greyfell Citadel",
+      "House Morvain"
+    ],
+    "notes": "Holdout question. Requires identifying Ederon's place of service and then the house ruling that citadel."
+  },
+  {
+    "id": "B030",
+    "track": "1B",
+    "split": "holdout",
+    "question": "Which organization rules the abbey commanded by Corvus Hollowmere the Pale?",
+    "gold_answer": "The Silent Choir",
+    "difficulty": "medium",
+    "hops": 2,
+    "category": "character-location-ruler",
+    "expected_sources": [
+      "corvus_hollowmere_the_pale.md",
+      "palewell_abbey.md"
+    ],
+    "required_entities": [
+      "Corvus Hollowmere the Pale",
+      "Palewell Abbey",
+      "The Silent Choir"
+    ],
+    "notes": "Holdout question. Requires identifying Corvus's command and then determining who rules Palewell Abbey."
+  }
+]
