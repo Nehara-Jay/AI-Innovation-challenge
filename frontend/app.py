@@ -29,7 +29,7 @@ if prompt := st.chat_input():
                 # HTTP POST request to your FastAPI server
                 response = requests.post(
                     "http://localhost:8000/api/ask", 
-                    json={"query": prompt}
+                    json={"question": prompt}
                 )
                 
                 if response.status_code == 200:
@@ -38,7 +38,7 @@ if prompt := st.chat_input():
                     # 3. Render the Reasoning Trace (For the judges)
                     with st.expander("🔍 View AI Reasoning Trace (Track 1B)"):
                         for step in data["reasoning_trace"]:
-                            st.markdown(f"**Step {step['step_number']} ({step['action']}):** {step['thought']}")
+                            st.markdown(f"**Step {step['step_number']} ({step['sub_query']}):** {step['thought']}")
                     
                     # 4. Render the Final Answer
                     st.markdown(f"### Answer\n{data['answer']}")
@@ -47,8 +47,8 @@ if prompt := st.chat_input():
                     st.divider()
                     st.markdown("**Citations:**")
                     for cite in data["citations"]:
-                        st.caption(f"📖 *{cite['document_name']} (Page {cite['page_number']})*")
-                        st.text(f"\"{cite['snippet']}\"")
+                        st.caption(f"📖 *{cite['source']} (Page {cite['page']})*")
+                        st.text(f"\"{cite['excerpt']}\"")
                     
                     # Save the AI's answer to state
                     st.session_state.messages.append({"role": "assistant", "content": data["answer"]})
