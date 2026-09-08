@@ -28,6 +28,45 @@ class ReasoningService:
             )
         return self._client
 
+    def analyze_image(self, image_path: str, question: str) -> str:
+        """
+        Uses Gemini 2.5 Flash Vision via OpenRouter to analyze and describe image plates.
+        """
+        import base64
+        from pathlib import Path
+
+        p = Path(image_path)
+        if not p.exists():
+            return ""
+
+        try:
+            with open(p, "rb") as f:
+                b64_data = base64.b64encode(f.read()).decode("utf-8")
+
+            client = self._get_client()
+            resp = client.chat.completions.create(
+                model="google/gemini-2.5-flash",
+                messages=[{
+                    "role": "user",
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": f"Analyze this fantasy lore image/plate and answer the following question accurately: {question}",
+                        },
+                        {
+                            "type": "image_url",
+                            "image_url": {"url": f"data:image/png;base64,{b64_data}"},
+                        },
+                    ],
+                }],
+                max_tokens=512,
+                temperature=0.1,
+            )
+            return resp.choices[0].message.content.strip()
+        except Exception as e:
+            print(f"[Vision Error] Could not analyze image {p.name}: {e}")
+            return ""
+
     def decompose_query(self, question: str) -> List[str]:
         """
         Decomposes complex multi-hop questions into 1 or 2 targeted search queries.
