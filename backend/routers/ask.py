@@ -1,18 +1,16 @@
 """
-FastAPI router for Ask (RAG QA) and Search endpoints.
+FastAPI router for Ask (RAG QA) and Semantic Search endpoints.
 """
 
-from fastapi import APIRouter, HTTPException, status, Depends
+from fastapi import APIRouter, HTTPException, status
 from backend.models import (
     AskRequest,
     AskResponse,
     SearchRequest,
     SearchResponse,
-    SearchHit,
 )
-from backend.services.orchestrator import orchestrator_service, OrchestratorService
-from backend.services.retrieval import retrieval_service, RetrievalService
-from backend.config import settings
+from backend.services.orchestrator import orchestrator_service
+from backend.services.retrieval import retrieval_service
 
 router = APIRouter(tags=["Question Answering & Search"])
 
@@ -23,9 +21,7 @@ router = APIRouter(tags=["Question Answering & Search"])
     summary="Ask a question with multi-hop RAG reasoning",
     description="Decomposes question, retrieves relevant context from Qdrant, and synthesizes evidence-backed answers with citations using DeepSeek reasoning.",
 )
-async def ask_question(
-    request: AskRequest,
-) -> AskResponse:
+def ask_question(request: AskRequest) -> AskResponse:
     try:
         response = orchestrator_service.ask(request)
         return response
@@ -42,9 +38,7 @@ async def ask_question(
     summary="Semantic vector search across archive chunks",
     description="Embeds query with Voyage AI and performs cosine similarity search against Qdrant collection.",
 )
-async def semantic_search(
-    request: SearchRequest,
-) -> SearchResponse:
+def semantic_search(request: SearchRequest) -> SearchResponse:
     try:
         hits = retrieval_service.search(
             query=request.query,
