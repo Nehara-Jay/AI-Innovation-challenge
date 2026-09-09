@@ -1,0 +1,1241 @@
+[
+  {
+    "qid": "1a_v12",
+    "track": "1A: Rich Answers, Not Just Text",
+    "question": "What is the central emblem on the banner of House Morvain?",
+    "answer": "The central emblem on the banner of House Morvain is a **shield with two crossed golden keys**. This is explicitly stated in the visual inspection of the heraldry associated with House Morvain [1]. The emblem reflects the house's aristocratic and kingly identity, which is shaped by its claimed descent from the last Sunder-Kings [2][4][5]. The visual identity of House Morvain, including its heraldry, is a key part of its presentation and doctrine, emphasizing its noble status and royal lineage [4][6].",
+    "citations": [
+      {
+        "citation_id": 1,
+        "source": "Visual Plate: atmo_heraldry_faction_house_morvain.png",
+        "page": 1,
+        "type": "document",
+        "excerpt": "[Visual Inspection of atmo_heraldry_faction_house_morvain.png]: The central emblem on the banner of House Morvain is a **shield with two crossed golden keys**.",
+        "relevance_score": 0.99
+      },
+      {
+        "citation_id": 2,
+        "source": "house_morvain.md",
+        "page": 1,
+        "type": "document",
+        "excerpt": "![House Morvain](images/atmo_heraldry_faction_house_morvain.png)\n\n# House Morvain\n\nHouse Morvain is an ancient noble house claiming descent from the last [[Sunder-Kings]]. A noble house whose authority rests upon that dynastic claim and the weight of its antiquity, it is seated at [[Ironfell Citadel...",
+        "relevance_score": 0.6142
+      },
+      {
+        "citation_id": 3,
+        "source": "house_morvain.md",
+        "page": 1,
+        "type": "document",
+        "excerpt": "elements a defined center, while its aristocratic and kingly appearance reinforces the impression of a dynasty that regards its past as an active source of authority.\n\n## Relationships & Affiliations\n\nHouse Morvain’s principal stated affiliation is with [[Ironfell Citadel]], where the house is seate...",
+        "relevance_score": 0.6017
+      },
+      {
+        "citation_id": 4,
+        "source": "house_morvain.md",
+        "page": 1,
+        "type": "document",
+        "excerpt": "’s authority and is reflected in its visual identity, which is aristocratic and kingly. It is likewise reflected in the guarded manner with which the house carries itself.\n\n## Presentation and Conduct\n\nHouse Morvain’s appearance is aristocratic and kingly. This visual identity is shaped by its claim...",
+        "relevance_score": 0.5902
+      },
+      {
+        "citation_id": 5,
+        "source": "the_annals_of_the_ashen_era.docx",
+        "page": 1,
+        "type": "document",
+        "excerpt": "The Annals of the Ashen Era\nHouse Morvain\nFaction Classification: noble house Seat: Ironfell Citadel Doctrine: Ancient noble dynasty claiming descent from the last Sunder-Kings.\nHouse Morvain is an ancient noble house whose authority rests upon a dynastic claim and the weight of its antiquity. It cl...",
+        "relevance_score": 0.5888
+      },
+      {
+        "citation_id": 6,
+        "source": "house_morvain.md",
+        "page": 1,
+        "type": "document",
+        "excerpt": "guage of aristocracy and kingship supports both foundations at once. Antiquity supplies the sense of continuity, while descent from the last [[Sunder-Kings]] supplies the royal character of the claim.\n\nThe known members of the house—[[Nymeria Palefroth]], [[Isolde Thornwald]], and [[Castellan Fellga...",
+        "relevance_score": 0.579
+      }
+    ],
+    "images": [
+      "images/atmo_heraldry_faction_house_morvain.png"
+    ],
+    "latency_sec": 17.24,
+    "success": true
+  },
+  {
+    "qid": "1a_v06",
+    "track": "1A: Rich Answers, Not Just Text",
+    "question": "In the portrait of Ignatz Ashgrove the Oathless, what object are they holding?",
+    "answer": "An error occurred while synthesizing the answer: 'NoneType' object is not subscriptable",
+    "citations": [
+      {
+        "citation_id": 1,
+        "source": "Visual Plate: atmo_portrait_character_morwenna_ashgrove.png",
+        "page": 1,
+        "type": "document",
+        "excerpt": "[Visual Inspection of atmo_portrait_character_morwenna_ashgrove.png]: In the portrait of Ignatz Ashgrove the Oathless, they are holding a **sword**.",
+        "relevance_score": 0.99
+      },
+      {
+        "citation_id": 2,
+        "source": "Visual Plate: atmo_portrait_character_ignatz_ashgrove_the_oathless.png",
+        "page": 1,
+        "type": "document",
+        "excerpt": "[Visual Inspection of atmo_portrait_character_ignatz_ashgrove_the_oathless.png]: In the portrait of Ignatz Ashgrove the Oathless, they are holding a **rolled-up scroll or parchment**.",
+        "relevance_score": 0.99
+      },
+      {
+        "citation_id": 3,
+        "source": "the_ashen_chronicles_volume_i_the_kindling_years.pdf",
+        "page": 17,
+        "type": "document",
+        "excerpt": "ar end of the table, Ignatz Ashgrove the Oathless stood with his hands resting on the pommel of his\nsword. No canonical portrait had survived of him, though Isolde suspected that was because portraits\ndemanded a face one could trust. He had been born in 258 AS, and served as a Warden-Commander with\n...",
+        "relevance_score": 0.768
+      },
+      {
+        "citation_id": 4,
+        "source": "ignatz_ashgrove_the_oathless.md",
+        "page": 1,
+        "type": "document",
+        "excerpt": "![Ignatz Ashgrove the Oathless](images/atmo_portrait_character_ignatz_ashgrove_the_oathless.png)\n\n# Ignatz Ashgrove the Oathless\n\n[[Ignatz Ashgrove the Oathless]] is a major Warden-Commander, a member of [[House Morvain]], and the commander of [[Ironfell Citadel]] since 286 AS. Born in 258 AS, Ignat...",
+        "relevance_score": 0.7336
+      },
+      {
+        "citation_id": 5,
+        "source": "the_annals_of_the_ashen_era.pdf",
+        "page": 23,
+        "type": "document",
+        "excerpt": "Registry: Ignatz Ashgrove the Oathless\nClassification\nRecord\nName\nIgnatz Ashgrove the Oathless\nRole\nWarden-Commander\nBirth\n258 AS\nAllegiance\nMember of House Morvain\nCommand\nCommands Ironfell Citadel since 286 AS\nSecret\nSells intelligence to the Iron-Ring Cartel\nIgnatz Ashgrove the Oathless is a majo...",
+        "relevance_score": 0.7204
+      },
+      {
+        "citation_id": 6,
+        "source": "ignatz_ashgrove_the_oathless.md",
+        "page": 1,
+        "type": "document",
+        "excerpt": ", or significance beyond its association with Ignatz. The two objects consequently define separate entries in Ignatz’s equipment record without providing a complete account of the character’s arsenal.\n\nIgnatz fought in [[The Purge of Blackport]], fighting for [[House Morvain]]. This is the principal...",
+        "relevance_score": 0.6994
+      }
+    ],
+    "images": [
+      "images/atmo_portrait_character_ignatz_ashgrove_the_oathless.png",
+      "images/atmo_portrait_character_morwenna_ashgrove.png",
+      "images/atmo_landscape_location_vharencrag_fortress.png"
+    ],
+    "latency_sec": 22.79,
+    "success": true
+  },
+  {
+    "qid": "1a_008",
+    "track": "1A: Rich Answers, Not Just Text",
+    "question": "According to the official threat-classification plate, what numerical rating is assigned to the creature known as the Weeping Lurker?",
+    "answer": "According to the official threat-classification plate, the Weeping Lurker is assigned a numerical rating of **3** [1]. \n\nHowever, it should be noted that this rating is only confirmed in the specific plate referenced in [1]. Other visual plates, such as the one inspected in [2], do not contain any textual information or threat-classification data for the Weeping Lurker. \n\nThe codex entries [3], [4], [5], and [6] provide detailed descriptions of the Weeping Lurker's behavior, habitat, and manifestations but do not mention its threat-classification rating. These entries emphasize its nocturnal ambush tactics, mournful demeanor, and concealed presence but defer to the accompanying plates for recorded figures, which are not reproduced in the text [4][5]. \n\nThus, the only definitive source for the threat rating is [1], which assigns it a **3**. No conflicting ratings are presented in the provided context.",
+    "citations": [
+      {
+        "citation_id": 1,
+        "source": "Visual Plate: plate_08_creature_weeping_lurker.png",
+        "page": 1,
+        "type": "document",
+        "excerpt": "[Visual Inspection of plate_08_creature_weeping_lurker.png]: According to the official threat-classification plate, the numerical rating assigned to the creature known as the Weeping Lurker is **3**.",
+        "relevance_score": 0.99
+      },
+      {
+        "citation_id": 2,
+        "source": "Visual Plate: atmo_creature_creature_weeping_lurker.png",
+        "page": 1,
+        "type": "document",
+        "excerpt": "[Visual Inspection of atmo_creature_creature_weeping_lurker.png]: Based on the provided image, there is no \"official threat-classification plate\" or any text that assigns a numerical rating to the creature known as the Weeping Lurker. The image is a visual depiction of the creature and its anatomica...",
+        "relevance_score": 0.99
+      },
+      {
+        "citation_id": 3,
+        "source": "codex_vaeloria_ii_armory_of_relics_and_bestiary.pdf",
+        "page": 41,
+        "type": "document",
+        "excerpt": "Plate - Weeping Lurker: consult the plate for the recorded figures.\nWeeping Lurker\nClassification\nRecorded description\nSubject\nWeeping Lurker\nHabit\nWeeping Lurker - habit: nocturnal ambusher\nManifestation\nHidden, indistinct form accompanied by the\nunmistakable image of weeping\nDemeanor\nMournful, pat...",
+        "relevance_score": 0.6718
+      },
+      {
+        "citation_id": 4,
+        "source": "codex_vaeloria_ii_armory_of_relics_and_bestiary.pdf",
+        "page": 42,
+        "type": "document",
+        "excerpt": "consistent than any bodily feature, though the source of that image\ncannot be established. It may be seen, heard, or apprehended as an\nimpression; the distinction is not reliable in surviving accounts.\nThe creature is mournful, patient, and unnervingly still. Such\nstillness is not to be mistaken for...",
+        "relevance_score": 0.639
+      },
+      {
+        "citation_id": 5,
+        "source": "codex_vaeloria_ii_armory_of_relics_and_bestiary.docx",
+        "page": 1,
+        "type": "document",
+        "excerpt": "y the creature’s concealed presence. Stillness likewise offers no assurance of absence. The appropriate response is controlled withdrawal from darkness and preservation of observation, where possible.\nThe accompanying numbered plate contains the recorded figures for the Weeping Lurker. Consult the p...",
+        "relevance_score": 0.6261
+      },
+      {
+        "citation_id": 6,
+        "source": "weeping_lurker.md",
+        "page": 1,
+        "type": "document",
+        "excerpt": "ity that it is waiting is sufficient to make darkness significant. Because it is mournful rather than openly violent in its presentation, the creature carries an atmosphere of grief as well as danger.\n\nThe image of weeping also distinguishes the [[Weeping Lurker]] from a simple unseen attacker. Its ...",
+        "relevance_score": 0.6256
+      }
+    ],
+    "images": [
+      "images/atmo_creature_creature_weeping_lurker.png",
+      "images/plate_08_creature_weeping_lurker.png",
+      "images/atmo_creature_creature_ashfall_colossus.png"
+    ],
+    "latency_sec": 21.41,
+    "success": true
+  },
+  {
+    "qid": "1a_004",
+    "track": "1A: Rich Answers, Not Just Text",
+    "question": "According to the figure plate detailing weapon binding, how many shards of will are required to attune The Thrice-Bound Edge?",
+    "answer": "According to the official records:\n\n1. The figure plate (plate_04_artifact_the_thrice_bound_edge.png) states that attuning The Thrice-Bound Edge requires **94 shards of will**, measured in \"vitae-grains\" but presented numerically as shards [1].\n\nHowever, there are important contextual contradictions:\n\n- The official codex entries [3][5][6] consistently state that **no attunement cost is recorded** in The Thrice-Bound Edge's defining records, with explicit warnings against interpreting the absence as meaning \"no cost exists.\"\n- The trial transcript [4] emphasizes that the lack of recorded cost in the official registry does not equate to permission for free use (\"That is not what I said\" when pressed about free attunement).\n\nConflict Resolution:\n- **Official fact**: The authoritative figure plate [1] documents 94 shards as the attunement requirement.\n- **Contradictory record**: The main codex entries [3][5][6] and trial [4] maintain that the artifact's registry contains no attunement cost, treating this omission as an archival feature rather than functional statement.\n\nThe discrepancy suggests the figure plate may represent practical occult measurements while the registry maintains deliberate silence on functional requirements. Both are technically correct within their respective contexts - the plate provides operational data while the registry preserves legal/archival neutrality.",
+    "citations": [
+      {
+        "citation_id": 1,
+        "source": "Visual Plate: plate_04_artifact_the_thrice_bound_edge.png",
+        "page": 1,
+        "type": "document",
+        "excerpt": "[Visual Inspection of plate_04_artifact_the_thrice_bound_edge.png]: According to the figure plate, attuning The Thrice-Bound Edge requires **94** shards of will. The unit of measurement is \"vitae-grains,\" but the question specifically asks for \"shards of will,\" which is implied by the numerical valu...",
+        "relevance_score": 0.99
+      },
+      {
+        "citation_id": 2,
+        "source": "Visual Plate: atmo_relic_artifact_the_thrice_bound_edge.png",
+        "page": 1,
+        "type": "document",
+        "excerpt": "[Visual Inspection of atmo_relic_artifact_the_thrice_bound_edge.png]: Based on the provided image, there is **no visible text or numerical information** detailing weapon binding, shards of will, or the specific requirements to attune \"The Thrice-Bound Edge.\"\n\nThe image is a highly stylized artistic ...",
+        "relevance_score": 0.99
+      },
+      {
+        "citation_id": 3,
+        "source": "codex_vaeloria_ii_armory_of_relics_and_bestiary.docx",
+        "page": 1,
+        "type": "document",
+        "excerpt": "erved by its making: it was made for expression, yet its defining character is silence. The artifact’s use requires the wielder to accept that contradiction rather than resolve it through performance.\nAttunement records must preserve the stated cost of 49 without abbreviation or substitution. Housin...",
+        "relevance_score": 0.6466
+      },
+      {
+        "citation_id": 4,
+        "source": "trial_transcript_concerning_the_thrice_bound_edge.docx",
+        "page": 1,
+        "type": "ephemera",
+        "excerpt": "Transcript of the Binding Inquiry Concerning The Thrice-Bound Edge\n[The doors are shut. A covered object rests upon the evidence table. The Clerk rises, unrolls the record, and speaks.]\nCLERK: Let the inquiry be heard. The matter before the bench is The Thrice-Bound Edge, and the question is what ma...",
+        "relevance_score": 0.6425
+      },
+      {
+        "citation_id": 5,
+        "source": "codex_vaeloria_ii_armory_of_relics_and_bestiary.pdf",
+        "page": 34,
+        "type": "document",
+        "excerpt": "Forged at\nHollowreach\nHoused in\nCrookvale\nAttunement cost\nNo cost recorded\nIts visual identity is that of regalia bearing the name The\nThrice-Bound Edge. The designation is therefore descriptive of its\nrecognized presentation, without establishing a material inventory,\nconstruction method, or ceremo...",
+        "relevance_score": 0.638
+      },
+      {
+        "citation_id": 6,
+        "source": "the_thrice_bound_edge.md",
+        "page": 1,
+        "type": "document",
+        "excerpt": "ed name. In particular, the name does not confirm three bindings, three owners, three uses, or any other number. The artifact’s defining record provides the name but no explanation of its terminology.\n\nIts visual identity is similarly precise and limited. The [[The Thrice-Bound Edge]] is regalia bea...",
+        "relevance_score": 0.6318
+      }
+    ],
+    "images": [
+      "images/atmo_relic_artifact_the_thrice_bound_edge.png",
+      "images/plate_04_artifact_the_thrice_bound_edge.png",
+      "images/atmo_relic_artifact_the_thrice_bound_lantern.png"
+    ],
+    "latency_sec": 19.68,
+    "success": true
+  },
+  {
+    "qid": "1a_013",
+    "track": "1A: Rich Answers, Not Just Text",
+    "question": "On the figure plate depicting 'The Cinder-Wrought Aegis', what attunement cost is listed for this entity?",
+    "answer": "The attunement cost listed for 'The Cinder-Wrought Aegis' on the figure plate is **34**. This is explicitly stated in the visual inspection of the plate provided in [1]. \n\nHowever, it is important to note that another visual plate depicting the artifact, as described in [2], does not list any attunement cost or related information, as it is purely illustrative and lacks any textual details. \n\nThus, the authoritative source for the attunement cost is [1], which clearly records it as 34.",
+    "citations": [
+      {
+        "citation_id": 1,
+        "source": "Visual Plate: plate_13_artifact_the_cinder_wrought_aegis.png",
+        "page": 1,
+        "type": "document",
+        "excerpt": "[Visual Inspection of plate_13_artifact_the_cinder_wrought_aegis.png]: Based on the figure plate, the attunement cost listed for 'The Cinder-Wrought Aegis' is **34**.",
+        "relevance_score": 0.99
+      },
+      {
+        "citation_id": 2,
+        "source": "Visual Plate: atmo_relic_artifact_the_cinder_wrought_aegis.png",
+        "page": 1,
+        "type": "document",
+        "excerpt": "[Visual Inspection of atmo_relic_artifact_the_cinder_wrought_aegis.png]: Based on the provided image and its crops, there is **no visible text or information** that lists an attunement cost for 'The Cinder-Wrought Aegis'. The image is purely illustrative, depicting the shield itself within a decorat...",
+        "relevance_score": 0.99
+      },
+      {
+        "citation_id": 3,
+        "source": "codex_vaeloria_ii_armory_of_relics_and_bestiary.pdf",
+        "page": 22,
+        "type": "document",
+        "excerpt": "Plate - The Cinder-Wrought Aegis: consult the plate for the recorded\nfigures.\nThe Cinder-Wrought Aegis\nClassification: Artifact Artifact class: regalia Forging site:\nEmbermarch Current housing: Gloamreach Forged: 342 AS\nThe Cinder-Wrought Aegis is regalia shaped by the legacy of the\nSundering. Its p...",
+        "relevance_score": 0.7772
+      },
+      {
+        "citation_id": 4,
+        "source": "codex_vaeloria_ii_armory_of_relics_and_bestiary.docx",
+        "page": 1,
+        "type": "document",
+        "excerpt": "vere planes, darkened finishes, and workmanship that presents damage as part of its intended dignity. No softness is attributed to its appearance. Its visual language is one of endurance beneath ruin.\nIts demeanor carries an austere atmosphere of sovereignty endured beneath ruin. This quality is not...",
+        "relevance_score": 0.7016
+      },
+      {
+        "citation_id": 5,
+        "source": "codex_vaeloria_ii_armory_of_relics_and_bestiary.pdf",
+        "page": 23,
+        "type": "document",
+        "excerpt": "Aegis therefore belongs among relics whose authority is communicated\nthrough presence rather than ornament alone.\nThe Cinder-Wrought Aegis was forged at Embermarch. It is housed in\nGloamreach. These locations are retained as separate entries in the\narmory record and are not to be conflated. The plac...",
+        "relevance_score": 0.6995
+      },
+      {
+        "citation_id": 6,
+        "source": "the_ashen_chronicles_volume_i_the_kindling_years.pdf",
+        "page": 97,
+        "type": "document",
+        "excerpt": "d whispered, “Master of Coin.”\nCerys glanced back.\nHe had drawn the curtain aside by an inch.\nThe Cinder-Wrought Aegis stood in its cradle. The dark regalia seemed taller than before. Its edges caught\nno light. Along one fire-scarred plate, a line had opened where no seam had been visible.\nSomething...",
+        "relevance_score": 0.6822
+      }
+    ],
+    "images": [
+      "images/atmo_relic_artifact_the_cinder_wrought_aegis.png",
+      "images/plate_13_artifact_the_cinder_wrought_aegis.png",
+      "images/atmo_creature_creature_cinder_shrike.png"
+    ],
+    "latency_sec": 30.05,
+    "success": true
+  },
+  {
+    "qid": "1a_v11",
+    "track": "1A: Rich Answers, Not Just Text",
+    "question": "What is the central emblem on the banner of The Ashen Vanguard?",
+    "answer": "The central emblem on the banner of The Ashen Vanguard is described differently in two official visual sources:\n\n1. **Stylized Skull**: The portrait of Cerys Sablewood (\"the_ashen\") shows the emblem as a **\"stylized skull\"** with empty eye sockets and jagged edges, fitting the grim aesthetic [1].\n\n2. **Tearful Eye**: The faction heraldry depicts it as a **\"large, stylized eye with a spiky, star-like border, from which viscous tears or drips fall\"** [2]. \n\n**Conflict Resolution**: Both are official codex descriptions of visual plates, but since heraldry typically represents a faction's standardized symbolism, the **tearful eye emblem [2]** likely takes precedence as the primary banner design. The skull may be a variant or associated with specific individuals like Cerys Sablewood. \n\nNo other sources contradict these visuals, though textual records emphasize the order's grim, militant identity tied to containing Ley-ruins [3][4][6]. The trial transcript [5] mentions no emblem but aligns with the severe, watchful demeanor reflected in both designs. \n\n**Missing Context**: No source explains why two emblems exist or their hierarchical relationship.",
+    "citations": [
+      {
+        "citation_id": 1,
+        "source": "Visual Plate: atmo_portrait_character_cerys_sablewood_the_ashen.png",
+        "page": 1,
+        "type": "document",
+        "excerpt": "[Visual Inspection of atmo_portrait_character_cerys_sablewood_the_ashen.png]: Based on the image, the central emblem on the banner of The Ashen Vanguard appears to be a **stylized skull**.\n\nIt's a dark, somewhat abstract skull shape, with what looks like empty eye sockets and possibly some jagged ed...",
+        "relevance_score": 0.99
+      },
+      {
+        "citation_id": 2,
+        "source": "Visual Plate: atmo_heraldry_faction_the_ashen_vanguard.png",
+        "page": 1,
+        "type": "document",
+        "excerpt": "[Visual Inspection of atmo_heraldry_faction_the_ashen_vanguard.png]: The central emblem on the banner of The Ashen Vanguard is a **large, stylized eye with a spiky, star-like border, from which several large, viscous tears or drips are falling.**",
+        "relevance_score": 0.99
+      },
+      {
+        "citation_id": 3,
+        "source": "thorncairn.md",
+        "page": 1,
+        "type": "document",
+        "excerpt": "sual emblem. The location is therefore associated not with welcome or movement, but with boundaries, silence, and the uneasy persistence of a place that remains present while refusing ordinary access.\n\nThorncairn endures in the record as a site of exclusion: founded in 192 AS, set in the [[Gloaming ...",
+        "relevance_score": 0.6385
+      },
+      {
+        "citation_id": 4,
+        "source": "the_annals_of_the_ashen_era.pdf",
+        "page": 58,
+        "type": "document",
+        "excerpt": "guard was belligerent in The War of Drowned Light. It was\nalso belligerent in The Accord of Mournthrone, where The Ashen Vanguard\nis recorded as victor. The order was further belligerent in The Leaden\nAccord. These entries establish its recurring presence in the military\nrecord without altering its ...",
+        "relevance_score": 0.625
+      },
+      {
+        "citation_id": 5,
+        "source": "trial_transcript_concerning_the_accord_of_mournthrone.docx",
+        "page": 1,
+        "type": "ephemera",
+        "excerpt": "prisals followed. Because victory was announced where surrender had been purchased. The wound was dressed in ceremony, and every village smelled the rot beneath it.\nJUDGE: Describe The Ashen Vanguard.\nWITNESS: A knightly order sworn to contain the Ley-ruins left by the Sundering. Severe men and wome...",
+        "relevance_score": 0.6051
+      },
+      {
+        "citation_id": 6,
+        "source": "the_annals_of_the_ashen_era.docx",
+        "page": 1,
+        "type": "document",
+        "excerpt": "s identified in surviving registers. No distinction is made in those registers between its administrative authority and its military purpose: both are subordinated to the containment of the Ley-ruins.\nIts visual identity is that of a militant, knightly order marked by the grim legacy of the Ley-ruin...",
+        "relevance_score": 0.597
+      }
+    ],
+    "images": [
+      "images/atmo_heraldry_faction_the_ashen_vanguard.png",
+      "images/atmo_portrait_character_cerys_sablewood_the_ashen.png"
+    ],
+    "latency_sec": 28.61,
+    "success": true
+  },
+  {
+    "qid": "1a_v07",
+    "track": "1A: Rich Answers, Not Just Text",
+    "question": "In the portrait of Aldous Wrenfield the Last Warden, what object are they holding?",
+    "answer": "In the portrait of Aldous Wrenfield the Last Warden, they are holding a **golden goblet** in their left hand and a **sword** in their right hand. This description is explicitly provided in the official visual plate inspection of Aldous Wrenfield's portrait [2]. \n\nThe official codex documents [3], [4], and [6] confirm Aldous Wrenfield's role as a major Reliquary Keeper and his custodial identity, but they do not provide additional details about the objects he holds in the portrait. The ephemera [5] also does not mention any specific objects held by Aldous, focusing instead on his role and activities. Therefore, the most reliable and specific information about the objects in the portrait comes from the visual plate inspection [2].",
+    "citations": [
+      {
+        "citation_id": 1,
+        "source": "Visual Plate: atmo_landscape_location_vharencrag_fortress.png",
+        "page": 1,
+        "type": "document",
+        "excerpt": "[Visual Inspection of atmo_landscape_location_vharencrag_fortress.png]: I'm sorry, but the image provided does not contain a portrait of Aldous Wrenfield the Last Warden. The image depicts a large, dark castle on a mountain, with a winding path leading up to it, and several figures walking on the pa...",
+        "relevance_score": 0.99
+      },
+      {
+        "citation_id": 2,
+        "source": "Visual Plate: atmo_portrait_character_aldous_wrenfield_the_last_warden.png",
+        "page": 1,
+        "type": "document",
+        "excerpt": "[Visual Inspection of atmo_portrait_character_aldous_wrenfield_the_last_warden.png]: In the portrait of Aldous Wrenfield the Last Warden, they are holding a **golden goblet** in their left hand and a **sword** in their right hand.",
+        "relevance_score": 0.99
+      },
+      {
+        "citation_id": 3,
+        "source": "aldous_wrenfield_the_last_warden.md",
+        "page": 1,
+        "type": "document",
+        "excerpt": "![Aldous Wrenfield the Last Warden](images/atmo_portrait_character_aldous_wrenfield_the_last_warden.png)\n\n# Aldous Wrenfield the Last Warden\n\nAldous Wrenfield the Last Warden is a major Reliquary Keeper, born in 315 AS. Aldous commands [[Fenspire]] since 336 AS and wields [[The Silent Psalter]] sinc...",
+        "relevance_score": 0.7404
+      },
+      {
+        "citation_id": 4,
+        "source": "aldous_wrenfield_the_last_warden.md",
+        "page": 1,
+        "type": "document",
+        "excerpt": "he epithet “the Last Warden” and the custodial identity of a Reliquary Keeper. These elements supply the character’s established impression without creating physical information that is not canonical.\n\nThe character’s known facts produce a profile built around guarded responsibility. Aldous commands...",
+        "relevance_score": 0.7266
+      },
+      {
+        "citation_id": 5,
+        "source": "muster_roll_concerning_halvard_sablewood.txt",
+        "page": 1,
+        "type": "ephemera",
+        "excerpt": "alling him meek, bitter, loyal, fearful, or bold exceeds the warrant of this roll. The clerk has heard pages speak more plainly than men, though pages may also conceal a cut made before the ink dried.\n\n**Aldous Wrenfield the Last Warden** is a major Reliquary Keeper, born in **315 AS**. No canonical...",
+        "relevance_score": 0.71
+      },
+      {
+        "citation_id": 6,
+        "source": "the_annals_of_the_ashen_era.pdf",
+        "page": 4,
+        "type": "document",
+        "excerpt": "Registry: Aldous Wrenfield the Last Warden\nField\nRecord\nName\nAldous Wrenfield the Last Warden\nRole\nReliquary Keeper; major Reliquary Keeper\nBirth\n315 AS\nCommand\nFenspire, since 336 AS\nRelic\nThe Silent Psalter, wielded since 341 AS\nInstructional relation\nMentor of Thessaly Coldwater\nCartel record\nMem...",
+        "relevance_score": 0.7086
+      }
+    ],
+    "images": [
+      "images/atmo_portrait_character_aldous_wrenfield_the_last_warden.png",
+      "images/atmo_landscape_location_vharencrag_fortress.png",
+      "images/atmo_landscape_location_vharenford.png"
+    ],
+    "latency_sec": 29.98,
+    "success": true
+  },
+  {
+    "qid": "1a_009",
+    "track": "1A: Rich Answers, Not Just Text",
+    "question": "According to the figure plate, what is the recorded garrison strength of Greyfell Citadel?",
+    "answer": "According to the figure plate in **plate_09_location_greyfell_citadel.png**, the recorded garrison strength of Greyfell Citadel is **3,695 souls under arms** [2]. This is the official figure provided in the codex.\n\nHowever, it is important to note that other sources, such as **codex_vaeloria_i_gazetteer_of_the_sundered_realms.docx** and **codex_vaeloria_i_gazetteer_of_the_sundered_realms.pdf**, state that Greyfell Citadel is currently **abandoned** and has **no current administration, garrison, or active court** assigned to it [3][4][6]. This discrepancy suggests that the figure of 3,695 souls under arms likely refers to a historical garrison strength rather than its current state. \n\nIn summary, the recorded garrison strength is **3,695 souls under arms** [2], but the citadel is presently abandoned with no active garrison [3][4][6].",
+    "citations": [
+      {
+        "citation_id": 1,
+        "source": "Visual Plate: atmo_landscape_location_ironfell_citadel.png",
+        "page": 1,
+        "type": "document",
+        "excerpt": "[Visual Inspection of atmo_landscape_location_ironfell_citadel.png]: Based on the provided image, there is **no visible text or information** that records the garrison strength of Greyfell Citadel. The image depicts a large, imposing citadel in a mountainous, stormy landscape, with a small group of ...",
+        "relevance_score": 0.99
+      },
+      {
+        "citation_id": 2,
+        "source": "Visual Plate: plate_09_location_greyfell_citadel.png",
+        "page": 1,
+        "type": "document",
+        "excerpt": "[Visual Inspection of plate_09_location_greyfell_citadel.png]: According to the figure plate, the recorded garrison strength of Greyfell Citadel is **3,695 souls under arms**.",
+        "relevance_score": 0.99
+      },
+      {
+        "citation_id": 3,
+        "source": "greyfell_citadel.md",
+        "page": 1,
+        "type": "document",
+        "excerpt": "relationship places Greyfell Citadel within the sphere of House Morvain while leaving its physical and functional condition unchanged: the site remains abandoned and outside the realm’s core holdings.\n\nThe ruling association is significant because Greyfell Citadel is not presented as an unaffiliated...",
+        "relevance_score": 0.6149
+      },
+      {
+        "citation_id": 4,
+        "source": "codex_vaeloria_i_gazetteer_of_the_sundered_realms.docx",
+        "page": 1,
+        "type": "document",
+        "excerpt": "ounding record is exact: Gloamreach's founded is 246 AS. Popular accounts wrongly claim otherwise. Such accounts are not accepted by this gazetteer and do not supersede the established date of 246 AS.\nThe location’s separation from the surrounding coast is therefore both administrative and perceptua...",
+        "relevance_score": 0.6006
+      },
+      {
+        "citation_id": 5,
+        "source": "codex_vaeloria_ii_armory_of_relics_and_bestiary.pdf",
+        "page": 16,
+        "type": "document",
+        "excerpt": "Plate - Marsh Revenant: consult the plate for the recorded figures.\nMarsh Revenant\nClassification\nRecord\nSubject\nMarsh Revenant\nNature\nRevenant of stagnant, hostile ground\nHabit\nsiege-breaker\nLair\nGreyfell Citadel\nPrimary Function\nShattering fortified resistance\nDisposition\nTireless, impersonal host...",
+        "relevance_score": 0.5904
+      },
+      {
+        "citation_id": 6,
+        "source": "codex_vaeloria_i_gazetteer_of_the_sundered_realms.pdf",
+        "page": 25,
+        "type": "document",
+        "excerpt": "Plate - Greyfell Citadel: consult the plate for the recorded figures.\nGreyfell Citadel\nGreyfell Citadel is a derelict fortress-site in the Shattered Vale. It\nwas founded in 62 AS, during the period in which fortified holdings\nwere established amid the fractured territories left by the Sundering.\nIts...",
+        "relevance_score": 0.5838
+      }
+    ],
+    "images": [
+      "images/plate_09_location_greyfell_citadel.png",
+      "images/atmo_landscape_location_ironfell_citadel.png"
+    ],
+    "latency_sec": 18.74,
+    "success": true
+  },
+  {
+    "qid": "1a_007",
+    "track": "1A: Rich Answers, Not Just Text",
+    "question": "According to the figure plate, what is the attunement cost listed for the Thrice-Bound Lantern?",
+    "answer": "According to the figure plate in [1], the attunement cost listed for the Thrice-Bound Lantern is **55**. This is explicitly stated in the visual inspection of the plate, which provides the numerical information for the artifact's attunement cost. \n\nIt is important to note that [2] does not provide any text or numerical information regarding the attunement cost, as the image is purely illustrative and lacks game mechanics or statistics. Therefore, the authoritative source for this information is [1].",
+    "citations": [
+      {
+        "citation_id": 1,
+        "source": "Visual Plate: plate_07_artifact_the_thrice_bound_lantern.png",
+        "page": 1,
+        "type": "document",
+        "excerpt": "[Visual Inspection of plate_07_artifact_the_thrice_bound_lantern.png]: According to the figure plate, the attunement cost listed for the Thrice-Bound Lantern is **55**.",
+        "relevance_score": 0.99
+      },
+      {
+        "citation_id": 2,
+        "source": "Visual Plate: atmo_relic_artifact_the_thrice_bound_lantern.png",
+        "page": 1,
+        "type": "document",
+        "excerpt": "[Visual Inspection of atmo_relic_artifact_the_thrice_bound_lantern.png]: Based on the provided image and its crops, there is **no text or numerical information** that indicates the attunement cost for the Thrice-Bound Lantern. The image is purely illustrative, depicting the lantern and its various d...",
+        "relevance_score": 0.99
+      },
+      {
+        "citation_id": 3,
+        "source": "the_thrice_bound_lantern.md",
+        "page": 1,
+        "type": "document",
+        "excerpt": "han institutional: it belongs to the principle of protection through containment. The severe silhouette, the three visible bindings, and the demeanor of guarded stillness all reinforce that principle.\n\nThe Lantern’s relationship to illumination is similarly shaped by restraint. It takes the form of ...",
+        "relevance_score": 0.7155
+      },
+      {
+        "citation_id": 4,
+        "source": "codex_vaeloria_ii_armory_of_relics_and_bestiary.docx",
+        "page": 1,
+        "type": "document",
+        "excerpt": "hreefold binding and define the artifact’s recognized identity. The casing presents no invitation to handling beyond necessity. Its shape is deliberate, closed, and resistant to casual interpretation.\nThe Thrice-Bound Lantern radiates guarded stillness. The effect is comparable to a watch maintained...",
+        "relevance_score": 0.7016
+      },
+      {
+        "citation_id": 5,
+        "source": "the_thrice_bound_lantern.md",
+        "page": 1,
+        "type": "document",
+        "excerpt": "ething maintained under pressure, a condition in which vigilance has become inseparable from form. The Lantern appears to stand in opposition to disorder without needing to display motion or violence.\n\nIts function and symbolism consequently reinforce one another. The ward’s purpose is protective; i...",
+        "relevance_score": 0.6984
+      },
+      {
+        "citation_id": 6,
+        "source": "codex_vaeloria_ii_armory_of_relics_and_bestiary.docx",
+        "page": 1,
+        "type": "document",
+        "excerpt": "es not, by itself, establish a power, requirement, restriction, oath, or consequence. Readers and custodians are directed to distinguish the recorded atmosphere from any interpretation attached to it.\nThe Thrice-Bound Edge is consequently classified by restraint in description as much as by its form...",
+        "relevance_score": 0.677
+      }
+    ],
+    "images": [
+      "images/atmo_relic_artifact_the_thrice_bound_lantern.png",
+      "images/plate_07_artifact_the_thrice_bound_lantern.png",
+      "images/atmo_relic_artifact_the_thrice_bound_edge.png"
+    ],
+    "latency_sec": 32.97,
+    "success": true
+  },
+  {
+    "qid": "1a_v21",
+    "track": "1A: Rich Answers, Not Just Text",
+    "question": "What motif is engraved on Gauntlet of Sorrowfell in its official illustration?",
+    "answer": "Based on the provided context, the official illustration of the Gauntlet of Sorrowfell features a **sigil** engraved on its back, described as filling with \"a color like bruised moonlight\" when activated [2][4]. However, the exact visual design or specific motif of this sigil is not explicitly described in any of the provided sources.\n\nKey facts:\n1. The sigil is present and reacts when the gauntlet is used [2][4]\n2. Its attunement cost is consistently recorded as 12 across multiple ledgers [1][2][4][6]\n3. The gauntlet's official name and details are strictly maintained in records [6]\n\nMissing information:\n- No source provides a detailed description of the sigil's visual appearance (shape, symbols, etc.)\n- The sermon [1] mentions it was \"forged in 360 AS\" while the codex [6] states \"391 AS\" - the official record would prioritize the codex's 391 AS date as authoritative per conflict resolution rules.\n\nConclusion: While we know the gauntlet bears an engraved sigil that reacts magically, its specific visual motif is not described in the available documents.",
+    "citations": [
+      {
+        "citation_id": 1,
+        "source": "sermon_concerning_the_war_of_drowned_light.pdf",
+        "page": 1,
+        "type": "ephemera",
+        "excerpt": "us stands the Gauntlet of Sorrowfell, regalia of grim authority. Its attunement cost is 12. I\nproclaim that it was forged in 360 AS. Wear it, if you must, as one wears judgment—not as a prize, but as\na burden. Sorrow is not weakness. Sorrow is the weight that keeps the hand from becoming eager.\nSo k...",
+        "relevance_score": 0.7306
+      },
+      {
+        "citation_id": 2,
+        "source": "the_ashen_chronicles_volume_ii_the_long_reprisal.pdf",
+        "page": 126,
+        "type": "document",
+        "excerpt": "Ignatz found his voice. “We promised nothing.”\nThe hood turned toward him.\nMaelis felt the Quartermaster shrink, though his shoulder remained pressed against theirs. Born in 425 AS,\nIgnatz Marrowgate had spent enough of his life among inventories, shortages, and locked doors to\nunderstand the arithm...",
+        "relevance_score": 0.7085
+      },
+      {
+        "citation_id": 3,
+        "source": "the_ashen_chronicles_volume_ii_the_long_reprisal.pdf",
+        "page": 125,
+        "type": "document",
+        "excerpt": "The room returned again. The untouched food. The lamp. The bell within reach of the liege’s hand. Their\nown voice, steady and courteous, offering counsel that had sounded like caution. The liege listening\nbecause Maelis had made listening seem safe.\n“Yours,” they said.\nThe voice did not answer.\nThe ...",
+        "relevance_score": 0.6988
+      },
+      {
+        "citation_id": 4,
+        "source": "the_ashen_chronicles_volume_ii_the_long_reprisal.docx",
+        "page": 1,
+        "type": "document",
+        "excerpt": "hem, past them, into the rooms and passages where men slept beside weapons.\n“House Morvain holds its walls,” Maelis said.\nThey had not meant to speak. The name escaped with the dry taste of old paper.\n“House Morvain holds what can be held,” said the bearer. “That is not the same thing.”\nThe hand wre...",
+        "relevance_score": 0.6946
+      },
+      {
+        "citation_id": 5,
+        "source": "the_ashen_chronicles_volume_ii_the_long_reprisal.docx",
+        "page": 1,
+        "type": "document",
+        "excerpt": "man. The bearer did not move.\nFrom inside the wall came a wet, dragging breath.\n“You plotted,” said the liege.\n“Yes.”\n“And yet you say you did not kill me.”\n“I arranged what came before.”\n“Which was?”\nMaelis could taste iron. “Trust.”\nThe thing behind the wall leaned closer. The black fingers withdr...",
+        "relevance_score": 0.6909
+      },
+      {
+        "citation_id": 6,
+        "source": "codex_vaeloria_ii_armory_of_relics_and_bestiary.pdf",
+        "page": 11,
+        "type": "document",
+        "excerpt": "Gauntlet of Sorrowfell - artifact class: regalia; Gauntlet of\nSorrowfell - attunement cost: 12; Gauntlet of Sorrowfell forged at\nVharencrag Fortress; Gauntlet of Sorrowfell housed in Greyfell Citadel;\nand Gauntlet of Sorrowfell - forged: 391 AS.\nIn all inventories, custody ledgers, and attunement sc...",
+        "relevance_score": 0.6805
+      }
+    ],
+    "images": [
+      "images/atmo_relic_artifact_gauntlet_of_sorrowfell.png"
+    ],
+    "latency_sec": 12.22,
+    "success": true
+  },
+  {
+    "qid": "1a_001",
+    "track": "1A: Rich Answers, Not Just Text",
+    "question": "According to the figure plate illustrating Emberdeep’s forces, what is the recorded total of its garrison strength?",
+    "answer": "According to the figure plate illustrating Emberdeep's forces (plate_01_location_emberdeep.png), the recorded total of its garrison strength is **1,114** [2]. \n\nThis is the only explicit numerical record of Emberdeep's garrison strength provided in the context. \n\nNote that this figure is distinct from Embermarch's garrison strength, which is consistently documented as **4,063** across multiple official sources [3][4][5][6]. The context does not clarify the relationship or potential overlap between Emberdeep and Embermarch's forces, nor does it provide further details about Emberdeep's military composition or duties.",
+    "citations": [
+      {
+        "citation_id": 1,
+        "source": "Visual Plate: atmo_landscape_location_embermarch.png",
+        "page": 1,
+        "type": "document",
+        "excerpt": "[Visual Inspection of atmo_landscape_location_embermarch.png]: Based on the provided image, there is **no information** about the recorded total of Emberdeep's garrison strength. The image depicts a large, dark, and imposing castle or fortress, with a few figures in the foreground, but it does not c...",
+        "relevance_score": 0.99
+      },
+      {
+        "citation_id": 2,
+        "source": "Visual Plate: plate_01_location_emberdeep.png",
+        "page": 1,
+        "type": "document",
+        "excerpt": "[Visual Inspection of plate_01_location_emberdeep.png]: According to the figure plate illustrating Emberdeep's forces, the recorded total of its garrison strength is **1,114**.",
+        "relevance_score": 0.99
+      },
+      {
+        "citation_id": 3,
+        "source": "embermarch.md",
+        "page": 1,
+        "type": "document",
+        "excerpt": "the settlement’s defining social and visual principle. The settlement does not project ease. Instead, it communicates that danger is a condition to be anticipated rather than an unusual interruption.\n\nIts hardened visual identity reinforces this assessment. The impression is one of durable construct...",
+        "relevance_score": 0.5577
+      },
+      {
+        "citation_id": 4,
+        "source": "codex_vaeloria_i_gazetteer_of_the_sundered_realms.docx",
+        "page": 1,
+        "type": "document",
+        "excerpt": "the hardened visual identity expected of a garrisoned settlement in the Gloaming Reach: severe lines, controlled access, martial signage, and an arrangement governed by readiness rather than display.\nEmbermarch is ruled by The Ashen Vanguard. Its garrison strength is 4063. This figure defines the se...",
+        "relevance_score": 0.5456
+      },
+      {
+        "citation_id": 5,
+        "source": "codex_vaeloria_i_gazetteer_of_the_sundered_realms.pdf",
+        "page": 16,
+        "type": "document",
+        "excerpt": "rd and establishes its earliest recognized entry in the gazetteer.\nNo separate civic designation supersedes its military classification.\nIn matters of authority, Embermarch is recorded under The Ashen\nVanguard; in matters of regional placement, it belongs to the Gloaming\nReach.\nFor travelers and off...",
+        "relevance_score": 0.5335
+      },
+      {
+        "citation_id": 6,
+        "source": "embermarch.md",
+        "page": 1,
+        "type": "document",
+        "excerpt": "ches, and an atmosphere in which every structure appears to serve a purpose. Even where habitation and daily labor are present, the settlement’s overall impression remains one of controlled readiness.\n\nThe designation of [[Embermarch]] as a core location further emphasizes its importance within the ...",
+        "relevance_score": 0.5218
+      }
+    ],
+    "images": [
+      "images/plate_01_location_emberdeep.png",
+      "images/atmo_landscape_location_embermarch.png"
+    ],
+    "latency_sec": 13.47,
+    "success": true
+  },
+  {
+    "qid": "1b_007",
+    "track": "1B: Connecting Facts Across Thousands of Pages",
+    "question": "Which accord was ultimately won by the faction of which Ederon Fellgard is a member?",
+    "answer": "The Accord of Mournthrone, which began in 297 AS and ended in 301 AS, was ultimately won by the Ashen Vanguard, as stated in the official record: \"The Accord of Mournthrone began in 297 AS. The Accord ended in 301 AS. The Ashen Vanguard was named victor\" [6]. \n\nEderon Fellgard is a member of The Iron-Ring Cartel [1][2][4][5], which is explicitly mentioned as one of the five powers in the Ashen Era, alongside the Ashen Vanguard, House Morvain, the Silent Choir, and the Bleeding Crown [6]. However, the Accord of Mournthrone was won by the Ashen Vanguard, not The Iron-Ring Cartel. \n\nTherefore, the faction of which Ederon Fellgard is a member, The Iron-Ring Cartel, did not win the Accord of Mournthrone. The Ashen Vanguard was the victor of that accord.",
+    "citations": [
+      {
+        "citation_id": 1,
+        "source": "ederon_fellgard.md",
+        "page": 1,
+        "type": "document",
+        "excerpt": "# Ederon Fellgard\n\nEderon Fellgard is a minor figure of the [[Ashen Era]] who serves as a Sapper. Ederon Fellgard was born in 338 AS, is a member of [[The Iron-Ring Cartel]], and serves at [[Greyfell Citadel]]. The available canon establishes these occupational and institutional facts but does not e...",
+        "relevance_score": 0.5916
+      },
+      {
+        "citation_id": 2,
+        "source": "the_annals_of_the_ashen_era.pdf",
+        "page": 16,
+        "type": "document",
+        "excerpt": "Registry: Ederon Fellgard\nRegistry Field\nRecorded Entry\nName\nEderon Fellgard\nClassification\nMinor figure of the Ashen Era\nRole\nEderon Fellgard - role: Sapper\nBirth\nEderon Fellgard - born: 338 AS\nAffiliation\nEderon Fellgard member of The Iron-Ring\nCartel\nService Posting\nEderon Fellgard serves at Grey...",
+        "relevance_score": 0.5793
+      },
+      {
+        "citation_id": 3,
+        "source": "ederon_fellgard.md",
+        "page": 1,
+        "type": "document",
+        "excerpt": "othing, scars, equipment, insignia, or other visual markers are not part of the established record. Consequently, no particular appearance should be treated as definitive when depicting the character.\n\nNo canonical temperament or emotional disposition is established for Ederon Fellgard. The availabl...",
+        "relevance_score": 0.5703
+      },
+      {
+        "citation_id": 4,
+        "source": "ederon_fellgard.md",
+        "page": 1,
+        "type": "document",
+        "excerpt": "s been recorded. The canon also does not establish whether Ederon Fellgard’s service at [[Greyfell Citadel]] is permanent, temporary, voluntary, assigned, or undertaken under any particular authority.\n\nNo named personal relationships are established for Ederon Fellgard. The available record does not...",
+        "relevance_score": 0.5522
+      },
+      {
+        "citation_id": 5,
+        "source": "ederon_fellgard.md",
+        "page": 1,
+        "type": "document",
+        "excerpt": "el]] has been established. Likewise, the available material does not identify any particular superior, subordinate, associate, rival, or companion connected to Ederon Fellgard through that membership.\n\nEderon Fellgard serves at [[Greyfell Citadel]]. This is the character’s established place of servi...",
+        "relevance_score": 0.5512
+      },
+      {
+        "citation_id": 6,
+        "source": "the_ashen_chronicles_volume_iii_a_crown_of_cinders.docx",
+        "page": 1,
+        "type": "document",
+        "excerpt": "ortress. The map darkened, and a spire appeared in the Gloaming Reach, stark against a field of gray.\nFenspire. Founded in 57 AS. Garrisoned.\nThe number beneath it remained black and unchanging.\n3742.\nBrannoc saw the walls of Fenspire in his mind: disciplined ranks, watchfires burning without warmth...",
+        "relevance_score": 0.523
+      }
+    ],
+    "images": [
+      "images/atmo_battle_painting_conflict_the_accord_of_mournthrone.png",
+      "images/atmo_battle_painting_conflict_the_leaden_accord.png",
+      "images/atmo_heraldry_faction_house_morvain.png"
+    ],
+    "latency_sec": 29.48,
+    "success": true
+  },
+  {
+    "qid": "1b_006",
+    "track": "1B: Connecting Facts Across Thousands of Pages",
+    "question": "Which individual was a member of the faction that ultimately won the War of Drowned Light?",
+    "answer": "Based on the provided context, there is no mention of any specific individual members of **The Silent Choir**, the faction that won **The War of Drowned Light**. The documents focus on the faction's collective actions, doctrines, and outcomes of the war, but do not name individual participants or leaders [1][2][3][5][6].\n\n### Key Facts:\n1. **The Silent Choir** is consistently recorded as the victor of the war [1][2][3][5][6].\n2. The faction is described as secretive, deliberate in handling truth, and seated at **Vharencrag Fortress**, but no named members are listed [2][5].\n3. The war's records emphasize the Choir's institutional role (e.g., staging the conflict's spark, controlling historical narratives) rather than individual contributions [1][5].\n\n### Missing Information:\n- The archives do not contain any names or titles of individuals affiliated with **The Silent Choir** during the war. If such details exist, they are not present in the provided excerpts. \n\nLet me know if you'd like further analysis of the faction's broader activities or the war's aftermath.",
+    "citations": [
+      {
+        "citation_id": 1,
+        "source": "the_war_of_drowned_light.md",
+        "page": 1,
+        "type": "document",
+        "excerpt": "![The War of Drowned Light](images/atmo_battle_painting_conflict_the_war_of_drowned_light.png)\n\n# [[The War of Drowned Light]]\n\nThe [[The War of Drowned Light]] was a conflict of concealed treachery, attrition, and unresolved vengeance. It began in **225 AS** and ended in **235 AS**, producing **646...",
+        "relevance_score": 0.7013
+      },
+      {
+        "citation_id": 2,
+        "source": "the_annals_of_the_ashen_era.docx",
+        "page": 1,
+        "type": "document",
+        "excerpt": "ices in the known account of the faction, but expressions of one doctrine. The Choir’s authority rests upon possession of the accepted version of events and upon the restriction of competing versions.\nThe Silent Choir is seated at Vharencrag Fortress. Its seat is associated with restrained religious...",
+        "relevance_score": 0.6804
+      },
+      {
+        "citation_id": 3,
+        "source": "the_ashen_chronicles_volume_i_the_kindling_years.pdf",
+        "page": 222,
+        "type": "document",
+        "excerpt": "lived beneath every oath they spoke afterward, warm as a buried coal.\nIsolde pressed the silver knife into the map until its point pierced the parchment.\n“Read the rest,” they said.\nOssric hesitated.\nIgnatz did not. “The War of Drowned Light began in 225 AS and ended in 235 AS, with 64617 casualties...",
+        "relevance_score": 0.6789
+      },
+      {
+        "citation_id": 4,
+        "source": "the_war_of_drowned_light.md",
+        "page": 1,
+        "type": "document",
+        "excerpt": "e entire conflict to that single place. In the historical memory of the war, the location is instead one of several surfaces upon which its concealed treachery and destructive momentum became visible.\n\nThe [[The War of Drowned Light]] continued until **235 AS**, when it ended as an organized conflic...",
+        "relevance_score": 0.6635
+      },
+      {
+        "citation_id": 5,
+        "source": "the_annals_of_the_ashen_era.docx",
+        "page": 1,
+        "type": "document",
+        "excerpt": "he Choir’s doctrine.\nThe War of Drowned Light\nClassification: Conflict Period: 225 AS–235 AS Casualties: 64617 Recorded victor: The Silent Choir Outcome: Collapsed into a decade of guerrilla reprisals\nThe War of Drowned Light began in 225 AS and ended in 235 AS. Its duration is recorded without qual...",
+        "relevance_score": 0.6515
+      },
+      {
+        "citation_id": 6,
+        "source": "the_war_of_drowned_light.md",
+        "page": 1,
+        "type": "document",
+        "excerpt": "s secretly staged spark, and the recorded victory of [[The Silent Choir]]. The remaining character of the conflict emerges from its sites, casualties, devastation, and aftermath.\n\n## In Popular Memory\n\nIn popular memory, the [[The War of Drowned Light]] is represented through drowned radiance. Light...",
+        "relevance_score": 0.6367
+      }
+    ],
+    "images": [
+      "images/atmo_battle_painting_conflict_the_war_of_drowned_light.png",
+      "images/atmo_heraldry_faction_house_morvain.png",
+      "images/atmo_heraldry_faction_the_ashen_vanguard.png"
+    ],
+    "latency_sec": 16.86,
+    "success": true
+  },
+  {
+    "qid": "1b_022",
+    "track": "1B: Connecting Facts Across Thousands of Pages",
+    "question": "Which war did Ravena Stormwell's own faction ultimately win?",
+    "answer": "Based on the provided context, Ravena Stormwell's faction, **The Silent Choir**, is recorded as the victor of **The War of Drowned Light** (225–235 AS). The official records state this outcome, though they omit that The Silent Choir secretly staged the war's spark [5][6]. \n\nKey evidence:\n1. **Official record**: \"The Silent Choir was recorded as the victor\" of the war [5][6].\n2. **Conflict note**: While the public record declares The Silent Choir's victory, hidden documents reveal they orchestrated the war's start [5][6]. Guerrilla reprisals continued for a decade after the \"official\" end [6].\n\nNo records link Ravena Stormwell directly to the war (she was born in 274 AS, decades after its conclusion [1][3]), but her affiliation with The Silent Choir ties her to its legacy. The standard she bears at Vharenford [1][3] may symbolically reflect this history, though its markings are unspecified.\n\nMissing information: Whether Ravena's role as Standard-Bearer involves commemorating this war or if Vharenford has ties to the conflict.",
+    "citations": [
+      {
+        "citation_id": 1,
+        "source": "the_annals_of_the_ashen_era.pdf",
+        "page": 49,
+        "type": "document",
+        "excerpt": "Registry: Ravena Stormwell\nRegister\nEntry\nName\nRavena Stormwell\nClassification\nMinor character\nRole\nStandard-Bearer\nBirth\n274 AS\nAffiliation\nThe Silent Choir\nStation\nVharenford\nRecord\nRavena Stormwell is a minor character recorded in the annals as a\nStandard-Bearer. Ravena Stormwell was born in 274 ...",
+        "relevance_score": 0.5594
+      },
+      {
+        "citation_id": 2,
+        "source": "the_annals_of_the_ashen_era.docx",
+        "page": 1,
+        "type": "document",
+        "excerpt": "modest formal bearing expected of a learner in choral service. The presentation is restrained rather than ceremonial, and it indicates instruction, observance, and limited standing within the service.\nHer demeanor is subdued and attentive. She is consequently best classified as a quiet functionary o...",
+        "relevance_score": 0.5516
+      },
+      {
+        "citation_id": 3,
+        "source": "ravena_stormwell.md",
+        "page": 1,
+        "type": "document",
+        "excerpt": "# Ravena Stormwell\n\n**Ravena Stormwell** is a minor character in the records of the Ashen Era who serves as a **Standard-Bearer**. She was born in **274 AS**, is a member of [[The Silent Choir]], and serves at [[Vharenford]]. No physical features or temperament are recorded for her. Instead, her vis...",
+        "relevance_score": 0.5449
+      },
+      {
+        "citation_id": 4,
+        "source": "ravena_stormwell.md",
+        "page": 1,
+        "type": "document",
+        "excerpt": "e available material does not describe the standard itself, its markings, its history, or the circumstances in which it is displayed. It records only that [[Ravena Stormwell]] serves in this capacity.\n\nNo physical features are recorded for [[Ravena Stormwell]]. Descriptions of height, build, face, h...",
+        "relevance_score": 0.5449
+      },
+      {
+        "citation_id": 5,
+        "source": "the_ashen_chronicles_volume_i_the_kindling_years.docx",
+        "page": 1,
+        "type": "document",
+        "excerpt": "red the point of her sword by a fraction. “Which war?”\nThe answer came in pieces, dragged from somewhere beneath the creature’s tongue.\n“The War of Drowned Light.”\nThe words seemed to darken the room.\nMorwenna had learned the war as every officer learned it: in figures, losses, and maps where whole ...",
+        "relevance_score": 0.5179
+      },
+      {
+        "citation_id": 6,
+        "source": "the_ashen_chronicles_volume_i_the_kindling_years.pdf",
+        "page": 182,
+        "type": "document",
+        "excerpt": "“The War of Drowned Light.”\nThe words seemed to darken the room.\nMorwenna had learned the war as every officer learned it: in figures, losses, and maps where whole\ndistricts had been rubbed away. It began in 225 AS and ended in 235 AS. 64617 casualties. The Silent\nChoir was recorded as the victor.\nB...",
+        "relevance_score": 0.5031
+      }
+    ],
+    "images": [
+      "images/atmo_heraldry_faction_the_bleeding_crown.png",
+      "images/atmo_battle_painting_conflict_the_war_of_drowned_light.png",
+      "images/atmo_battle_painting_conflict_the_winter_reckoning.png"
+    ],
+    "latency_sec": 10.46,
+    "success": true
+  },
+  {
+    "qid": "1b_013",
+    "track": "1B: Connecting Facts Across Thousands of Pages",
+    "question": "Whose dominion encompasses the lair of the Gravemaw Wyrm?",
+    "answer": "Based on the provided context, there is no recorded information about any dominion or ruling power that encompasses the Gravemaw Wyrm's lair at Marrowwell Abbey. The official documents explicitly state:\n\n1. The Gravemaw Wyrm has no established relationships or affiliations with any factions, households, orders, or organized hosts [1][2][4]. It is classified as an independent predator with no allegiance to any named power.\n\n2. Its connection to Marrowwell Abbey is strictly territorial - the abbey is confirmed as its lair, but no further bonds or dominion relationships are recorded [1][4]. The documents caution against assuming any institutional affiliations with the abbey [4].\n\n3. The codex entries repeatedly emphasize the wyrm's lack of political or organizational ties, stating it is \"not classified as an agent, mount, guardian, servant, or ally of another named power\" [2][4].\n\nThe available evidence shows the Gravemaw Wyrm operates as an autonomous threat, with Marrowwell Abbey serving as its lair but not part of any larger dominion. The documents contain no mention of any entity claiming authority over either the wyrm or its lair.\n\nMissing Information: The context provides no data about Marrowwell Abbey's political status or history beyond its role as the wyrm's lair. There are no records of who might have controlled the abbey before the wyrm's occupation or whether any power currently claims nominal authority over the territory.",
+    "citations": [
+      {
+        "citation_id": 1,
+        "source": "gravemaw_wyrm.md",
+        "page": 1,
+        "type": "document",
+        "excerpt": "![Gravemaw Wyrm](images/atmo_creature_creature_gravemaw_wyrm.png)\n\n# Gravemaw Wyrm\n\nThe **Gravemaw Wyrm** is a threat-rating 8 creature and a sky hunter whose presence makes open skies perilous wherever it ranges. It is a grave-associated predator, possessing a vast wyrm-like form, a pronounced maw,...",
+        "relevance_score": 0.7172
+      },
+      {
+        "citation_id": 2,
+        "source": "gravemaw_wyrm.md",
+        "page": 1,
+        "type": "document",
+        "excerpt": "mstances by which the wyrm came to lair there. The lair designation should therefore be understood as a confirmed location of habitation rather than as evidence of any additional allegiance or origin.\n\nNo further history is established in the surviving account. In particular, the record does not pro...",
+        "relevance_score": 0.7044
+      },
+      {
+        "citation_id": 3,
+        "source": "codex_vaeloria_ii_armory_of_relics_and_bestiary.pdf",
+        "page": 13,
+        "type": "document",
+        "excerpt": "aerial threat. The presence of the lair does not lessen the creature’s\nmobility; it identifies the point from which its range is maintained.\nField Assessment\nAvoid exposure where concealment is unavailable. Do not mistake\ndistance for safety. The wyrm’s principal advantage is vertical\ndominance, and...",
+        "relevance_score": 0.6991
+      },
+      {
+        "citation_id": 4,
+        "source": "gravemaw_wyrm.md",
+        "page": 1,
+        "type": "document",
+        "excerpt": "d does not identify the creature as belonging to any faction, household, order, or organized host. It is therefore not classified as an agent, mount, guardian, servant, or ally of another named power.\n\nIts connection to [[Marrowwell Abbey]] is territorial rather than otherwise defined. The abbey is ...",
+        "relevance_score": 0.6901
+      },
+      {
+        "citation_id": 5,
+        "source": "codex_vaeloria_ii_armory_of_relics_and_bestiary.pdf",
+        "page": 12,
+        "type": "document",
+        "excerpt": "Gravemaw Wyrm\nClassification\nEntry\nCreature\nGravemaw Wyrm\nThreat rating\n8\nHabit\nsky hunter\nLair\nMarrowwell Abbey\nPrimary domain\nOpen sky\nAssociation\nGrave\nThe Gravemaw Wyrm is a grave-associated predator of exceptional aerial\ndominance. Gravemaw Wyrm - threat rating: 8. Its presence converts the\nope...",
+        "relevance_score": 0.6863
+      }
+    ],
+    "images": [
+      "images/atmo_creature_creature_gravemaw_wyrm.png"
+    ],
+    "latency_sec": 10.71,
+    "success": true
+  },
+  {
+    "qid": "1b_005",
+    "track": "1B: Connecting Facts Across Thousands of Pages",
+    "question": "Which war was won by the organization that included Isolde Mournvale as one of its members?",
+    "answer": "The organization that included Isolde Mournvale as one of its members is **The Silent Choir**, as confirmed in multiple sources [1][2][3][4]. According to the official records, **The Silent Choir** was victorious in **The War of Drowned Light**. This is explicitly stated in the War Register section of *The Annals of the Ashen Era*: \"The Silent Choir was belligerent in The War of Drowned Light and was victor of The War of Drowned Light\" [6].\n\nThus, **The War of Drowned Light** is the war won by the organization that included Isolde Mournvale as a member. No additional details about her involvement in this war or her role in the victory are recorded in the available canon.",
+    "citations": [
+      {
+        "citation_id": 1,
+        "source": "isolde_mournvale.md",
+        "page": 1,
+        "type": "document",
+        "excerpt": "ted. Her service at [[Stormmarch]] is nevertheless a confirmed part of her character profile. It places her within a defined setting while leaving the details of her daily responsibilities unrecorded.\n\nHer membership in [[The Silent Choir]] is also confirmed. The available account does not state whe...",
+        "relevance_score": 0.6603
+      },
+      {
+        "citation_id": 2,
+        "source": "isolde_mournvale.md",
+        "page": 1,
+        "type": "document",
+        "excerpt": "ich she serves or the precise relationship between [[Stormmarch]] and [[The Silent Choir]]. The confirmed facts are limited to her service at [[Stormmarch]] and her membership in [[The Silent Choir]].\n\nNo canonical family, friendship, rivalry, mentorship, or other personal relationship is recorded f...",
+        "relevance_score": 0.6008
+      },
+      {
+        "citation_id": 3,
+        "source": "the_annals_of_the_ashen_era.docx",
+        "page": 1,
+        "type": "document",
+        "excerpt": "nforgiven is rival of Ignatz Ashgrove the Oathless and rival of Malchior Cindervale the Flame-Touched. These entries are maintained independently of the subject’s command and House Morvain membership.\nThe concealed matter remains material to all assessments: Isolde Fellgard the Unforgiven plotted th...",
+        "relevance_score": 0.5925
+      },
+      {
+        "citation_id": 4,
+        "source": "isolde_mournvale.md",
+        "page": 1,
+        "type": "document",
+        "excerpt": "urnvale]]. This association should not be expanded into an unrecorded costume, appearance, or manner of handling birds. It functions as a professional marker rather than a complete visual description.\n\nHer demeanor is equally undefined. The canonical temperament of [[Isolde Mournvale]] is unrecorded...",
+        "relevance_score": 0.581
+      },
+      {
+        "citation_id": 5,
+        "source": "auction_catalogue_concerning_isolde_mournvale.docx",
+        "page": 1,
+        "type": "ephemera",
+        "excerpt": "r whispered beside a mews, but they do not belong to the authenticated description.\nCondition of Record\nThe name is legible. The birth year is given. The occupation is given. The remainder is silence.\nThis silence is not damage to be repaired by ornament. It is the present condition of the record co...",
+        "relevance_score": 0.5735
+      },
+      {
+        "citation_id": 6,
+        "source": "the_annals_of_the_ashen_era.pdf",
+        "page": 68,
+        "type": "document",
+        "excerpt": "distinction is administered through religious authority rather than\npublic consent. For this reason, the Choir’s records possess both\narchival and doctrinal weight.\nWar Register\nThe Silent Choir was belligerent in The War of Drowned Light and was\nvictor of The War of Drowned Light. The Silent Choir ...",
+        "relevance_score": 0.4598
+      }
+    ],
+    "images": [
+      "images/atmo_portrait_character_isolde_fellgard_the_unforgiven.png",
+      "images/atmo_portrait_character_sabelle_mournvale_the_twice_crowned.png",
+      "images/atmo_battle_painting_conflict_the_accord_of_mournthrone.png"
+    ],
+    "latency_sec": 32.69,
+    "success": true
+  },
+  {
+    "qid": "1b_009",
+    "track": "1B: Connecting Facts Across Thousands of Pages",
+    "question": "In what way is Halvard Crowhurst connected to the victors of the Purge of Blackport?",
+    "answer": "Based on the provided context, there is **no recorded connection** between Halvard Crowhurst and the victors of the Purge of Blackport (the Iron-Ring Cartel). The interrogation record [6] establishes only the following about Halvard Crowhurst:  \n- He was born in 252 AS.  \n- He serves as an herbalist.  \n- No physical features, temperament, or affiliations are recorded.  \n- The record explicitly states: *\"No further statement binding Halvard Crowhurst to Palewell Abbey or Caedmon Hollowmere\"* [6], and no ties to the Iron-Ring Cartel or the Purge of Blackport are mentioned.  \n\nThe Purge of Blackport is detailed in [1], [2], [3], and [5], but none of these sources reference Halvard Crowhurst. The Iron-Ring Cartel's actions during the Purge (including poisoning their own allies' wells) are well-documented, but no individuals outside the Cartel's leadership are named in connection with these events.  \n\n**Missing Information**:  \n- If Halvard Crowhurst had any indirect ties (e.g., supplying herbs to the Cartel), these are not recorded in the available documents.  \n- The interrogation record [6] focuses solely on his role as an herbalist and lacks any contextual links to broader conflicts.  \n\n**Conclusion**:  \nHalvard Crowhurst's documented role is limited to his profession as an herbalist, with no attested connection to the Purge of Blackport or its victors. Absence of evidence here cannot be interpreted as evidence of absence, but the archives provide no basis for a link [1][2][3][5][6].",
+    "citations": [
+      {
+        "citation_id": 1,
+        "source": "the_annals_of_the_ashen_era.docx",
+        "page": 1,
+        "type": "document",
+        "excerpt": "l, fractured skies, vacant reliquaries, and structures reduced to inert silhouettes. These conventions do not signify a single battlefield; they signify the conflict’s condition of incomplete closure.\nIts demeanor is the bleak stillness of mutual ruin concealed beneath a declared victory. This disti...",
+        "relevance_score": 0.6128
+      },
+      {
+        "citation_id": 2,
+        "source": "the_purge_of_blackport.md",
+        "page": 1,
+        "type": "document",
+        "excerpt": "![The Purge of Blackport](images/atmo_battle_painting_conflict_the_purge_of_blackport.png)\n\n# The Purge of Blackport\n\nThe **Purge of [[Blackport]]** was a conflict that began in **311 AS** and ended in **321 AS**. It caused **70,907 casualties**—a canonical casualty figure of **70907**—and ended wit...",
+        "relevance_score": 0.5876
+      },
+      {
+        "citation_id": 3,
+        "source": "the_ashen_chronicles_volume_iv_the_silent_accounting.docx",
+        "page": 1,
+        "type": "document",
+        "excerpt": "taken too much. He dipped a rag into a bucket and scrubbed the stone.\n“You count stains now?” Isolde asked.\n“I count everything that might be blamed on me.”\n“Then you are a better servant than most.”\nOssric’s fingers paused. His temperament was not recorded in any ledger Isolde had seen, but caution...",
+        "relevance_score": 0.5841
+      },
+      {
+        "citation_id": 4,
+        "source": "quartermaster_ledger_concerning_fenspire.txt",
+        "page": 1,
+        "type": "ephemera",
+        "excerpt": "purge | It radiates merciless triumph soured by calculated betrayal. Such a temper spoils provisions more swiftly than damp, though no clerk has yet found a measure for it. |\n\n### Marginal Memorandum\n\nNo quartermaster should mistake a full rack for safety. Fenspire has its **3,742** in garrison, its...",
+        "relevance_score": 0.5826
+      },
+      {
+        "citation_id": 5,
+        "source": "letter_concerning_the_purge_of_blackport.txt",
+        "page": 1,
+        "type": "ephemera",
+        "excerpt": "# A Letter Regarding the Blackport Register\n\n**To Isolde Mournvale, falconer,**\n\nI send this under a shuttered lamp, though I cannot say whether secrecy still has value in an age where even water may be taught to murder.\n\nYou have asked what may be trusted concerning **The Purge of Blackport**. I wi...",
+        "relevance_score": 0.5792
+      },
+      {
+        "citation_id": 6,
+        "source": "interrogation_record_concerning_palewell_abbey.txt",
+        "page": 1,
+        "type": "ephemera",
+        "excerpt": "canonical temperament is established for Caedmon Hollowmere.\n\n**[The respondent’s answer is entered without alteration. No further description is supplied.]**\n\n**QUESTIONER:** Now: Halvard Crowhurst.\n\n**RESPONDENT:** Halvard Crowhurst is a minor character who serves as an Herbalist.\n\n**QUESTIONER:**...",
+        "relevance_score": 0.5531
+      }
+    ],
+    "images": [
+      "images/atmo_battle_painting_conflict_the_purge_of_blackport.png",
+      "images/atmo_portrait_character_halvard_vane_the_grave_sworn.png"
+    ],
+    "latency_sec": 12.62,
+    "success": true
+  },
+  {
+    "qid": "1b_003",
+    "track": "1B: Connecting Facts Across Thousands of Pages",
+    "question": "To which shadowed redoubt must one journey to examine the relic long borne by Cerys Sablewood the Ashen since 356 AS?",
+    "answer": "To examine the relic long borne by Cerys Sablewood the Ashen since 356 AS, one must journey to **Cindermere Hold**. \n\nThe evidence is as follows:\n1. Cerys has wielded **The Cinder-Wrought Aegis** since 356 AS [1][2][3].\n2. Cerys has commanded **Cindermere Hold** since 359 AS [1][2][3], which is the fortress under their authority.\n3. While the records do not explicitly state that the Aegis is physically housed at Cindermere Hold, it is the only documented location directly tied to Cerys's command and likely the most secure place for their relic [3]. No other redoubt or repository is mentioned in connection with the Aegis.\n\nMissing information: The context does not confirm whether the Aegis is permanently stored at Cindermere Hold or if it travels with Cerys. However, given Cerys's role as commander of the Hold, it is the most logical location to seek the relic.",
+    "citations": [
+      {
+        "citation_id": 1,
+        "source": "cerys_sablewood_the_ashen.md",
+        "page": 1,
+        "type": "document",
+        "excerpt": "![Cerys Sablewood the Ashen](images/atmo_portrait_character_cerys_sablewood_the_ashen.png)\n\n# [[Cerys Sablewood the Ashen]]\n\n[[Cerys Sablewood the Ashen]] is a major Master of Coin, born in 330 AS. Cerys is a member of [[The Ashen Vanguard]], commands [[Cindermere Hold]] since 359 AS, and has wielde...",
+        "relevance_score": 0.6974
+      },
+      {
+        "citation_id": 2,
+        "source": "the_annals_of_the_ashen_era.pdf",
+        "page": 11,
+        "type": "document",
+        "excerpt": "Registry: Cerys Sablewood the Ashen\nVolume: The Annals of the Ashen Era Classification: Major political and\nfiscal personage\nRegister\nEntry\nName\nCerys Sablewood the Ashen\nRole\nMaster of Coin\nBirth\n330 AS\nAllegiance\nMember of The Ashen Vanguard\nCommand\nCommands Cindermere Hold since 359 AS\nRelic\nWiel...",
+        "relevance_score": 0.6956
+      },
+      {
+        "citation_id": 3,
+        "source": "cerys_sablewood_the_ashen.md",
+        "page": 1,
+        "type": "document",
+        "excerpt": "tance, or whether the secret has been disclosed to any other person. These matters remain undefined. What is established is the inheritance itself and its unacknowledged status.\n\n### Halvard Sablewood\n\n[[Cerys Sablewood the Ashen]] is the mentor of [[Halvard Sablewood]]. The wording establishes inst...",
+        "relevance_score": 0.6813
+      },
+      {
+        "citation_id": 4,
+        "source": "cerys_sablewood_the_ashen.md",
+        "page": 1,
+        "type": "document",
+        "excerpt": "ster of Coin who carries a hidden royal inheritance. The characterization therefore rests less on an established physical description than on the contrast between composure and concealed significance.\n\nThe title “the Ashen” functions as Cerys's principal identifying image. It is a defining visual id...",
+        "relevance_score": 0.6776
+      },
+      {
+        "citation_id": 5,
+        "source": "the_ashen_chronicles_volume_ii_the_long_reprisal.pdf",
+        "page": 81,
+        "type": "document",
+        "excerpt": "Chapter 6\nThe ash came down without wind.\nIt settled upon the shutters, the sill, the blackened iron of the balcony rail, and upon the parchment spread\nbeneath Cerys Sablewood the Ashen’s hand. Each flake was light as sifted flour. Each left a gray bruise\nwhere it touched the page.\nCerys did not bru...",
+        "relevance_score": 0.656
+      },
+      {
+        "citation_id": 6,
+        "source": "the_ashen_chronicles_volume_ii_the_long_reprisal.docx",
+        "page": 1,
+        "type": "document",
+        "excerpt": "en another.\nLetters formed beneath the dripping dark.\nBrannoc leaned closer despite himself.\nThe words were written in a hand he did not know.\nThey named him.\nChapter 6\nThe ash came down without wind.\nIt settled upon the shutters, the sill, the blackened iron of the balcony rail, and upon the parchm...",
+        "relevance_score": 0.6493
+      }
+    ],
+    "images": [
+      "images/atmo_portrait_character_cerys_sablewood_the_ashen.png",
+      "images/atmo_heraldry_faction_the_ashen_vanguard.png",
+      "images/atmo_relic_artifact_chalice_of_ashdeep.png"
+    ],
+    "latency_sec": 9.74,
+    "success": true
+  },
+  {
+    "qid": "1c_000",
+    "track": "1C: Searching the Way a Human Does",
+    "question": "State the precise year in the Age of Shadows that marks the true founding of Gloamreach.",
+    "answer": "The precise year in the Age of Shadows that marks the true founding of Gloamreach is **246 AS**. This is explicitly stated in the official records of the gazetteer, which emphasize that the founding record is exact and that popular accounts claiming otherwise are not accepted [1][2][4][5]. The official documents consistently affirm this date, and any conflicting accounts are explicitly dismissed as incorrect [1][4]. Therefore, the authoritative and certified founding year of Gloamreach is **246 AS**.",
+    "citations": [
+      {
+        "citation_id": 1,
+        "source": "codex_vaeloria_i_gazetteer_of_the_sundered_realms.docx",
+        "page": 1,
+        "type": "document",
+        "excerpt": ", officials, and inhabitants are understood to conduct ordinary affairs under the pressure of persistent dispute. The settlement holds its ground amid that dispute; this is its defining civic posture.\nFor gazetteer purposes, Gloammarch should be recorded as a fortified core location of The Ash Waste...",
+        "relevance_score": 0.7323
+      },
+      {
+        "citation_id": 2,
+        "source": "codex_vaeloria_i_gazetteer_of_the_sundered_realms.pdf",
+        "page": 24,
+        "type": "document",
+        "excerpt": "2483; Gloamreach - status: quarantined; Gloamreach ruled by House\nMorvain; Gloamreach - founded: 246 AS.",
+        "relevance_score": 0.7041
+      },
+      {
+        "citation_id": 3,
+        "source": "ballad_concerning_edge_of_gloamreach.docx",
+        "page": 1,
+        "type": "ephemera",
+        "excerpt": "The Ballad of the Unrecorded Edge\nCome near, you ash-road wanderers, And hush your iron feet; For twilight keeps a written dark Where no two shadows meet. I sing of Edge of Gloamreach, Though wiser tongues may cease— A grimoire bound in shadowed hush, A book that will not sleep.\nTurn, turn, the blac...",
+        "relevance_score": 0.6734
+      },
+      {
+        "citation_id": 4,
+        "source": "codex_vaeloria_i_gazetteer_of_the_sundered_realms.docx",
+        "page": 1,
+        "type": "document",
+        "excerpt": "ounding record is exact: Gloamreach's founded is 246 AS. Popular accounts wrongly claim otherwise. Such accounts are not accepted by this gazetteer and do not supersede the established date of 246 AS.\nThe location’s separation from the surrounding coast is therefore both administrative and perceptua...",
+        "relevance_score": 0.6535
+      },
+      {
+        "citation_id": 5,
+        "source": "gloamreach.md",
+        "page": 1,
+        "type": "document",
+        "excerpt": "cidental settlement or peripheral site. Its position within the region is therefore significant in the organization of coastal records, even where the details of its earliest history remain unsettled.\n\nThe location’s quarantined status sets [[Gloamreach]] apart from the surrounding coast. This disti...",
+        "relevance_score": 0.6513
+      },
+      {
+        "citation_id": 6,
+        "source": "edge_of_gloamreach.md",
+        "page": 1,
+        "type": "document",
+        "excerpt": "![Edge of Gloamreach](images/atmo_relic_artifact_edge_of_gloamreach.png)\n\n# Edge of Gloamreach (artifact)\n\n**Edge of Gloamreach** is a grimoire associated with [[Blackford]], where it was forged and is housed. Its attunement cost is **46**. The artifact presents the visual identity of a grimoire bea...",
+        "relevance_score": 0.6451
+      }
+    ],
+    "images": [
+      "images/atmo_relic_artifact_edge_of_gloamreach.png",
+      "images/atmo_landscape_location_gloamreach.png"
+    ],
+    "latency_sec": 17.97,
+    "success": true
+  },
+  {
+    "qid": "1c_003",
+    "track": "1C: Searching the Way a Human Does",
+    "question": "In which year was the 'Gauntlet of Sorrowfell' actually forged?",
+    "answer": "According to the official records:\n\n1. The **Gauntlet of Sorrowfell** was forged at **Vharencrag Fortress** and is housed in **Greyfell Citadel**, but its exact forging year is contested in the sources [1][2][3][5]. \n\n2. The **Codex Vaeloria II** states the forging year as **391 AS** [1], which is the only officially documented year provided in the authoritative records.\n\nHowever, there are conflicting accounts:\n- A sermon (an unreliable ephemeral source) claims it was forged in **360 AS** [4], but this is not corroborated by official codices.\n- Other official documents explicitly state the forging date is unresolved and contested, directing readers to consult the Annals and Codex for authoritative treatment [2][3][5].\n\n**Conclusion**:  \nThe only officially recorded forging year is **391 AS** [1], though this is noted as contested in other authoritative sources. The 360 AS claim from the sermon is not supported by primary records. The dispute remains unresolved in the chronicles, with no definitive consensus beyond the Codex Vaeloria's assertion.",
+    "citations": [
+      {
+        "citation_id": 1,
+        "source": "codex_vaeloria_ii_armory_of_relics_and_bestiary.pdf",
+        "page": 11,
+        "type": "document",
+        "excerpt": "Gauntlet of Sorrowfell - artifact class: regalia; Gauntlet of\nSorrowfell - attunement cost: 12; Gauntlet of Sorrowfell forged at\nVharencrag Fortress; Gauntlet of Sorrowfell housed in Greyfell Citadel;\nand Gauntlet of Sorrowfell - forged: 391 AS.\nIn all inventories, custody ledgers, and attunement sc...",
+        "relevance_score": 0.7755
+      },
+      {
+        "citation_id": 2,
+        "source": "gauntlet_of_sorrowfell.md",
+        "page": 1,
+        "type": "document",
+        "excerpt": "he gauntlet was forged at **[[Vharencrag Fortress]]** and housed in **[[Greyfell Citadel]]**; these are documented locations, not evidence of an additional allegiance, owner, maker, order, or faction.\n\nThe artifact should therefore not be assigned to any power, household, institution, or individual ...",
+        "relevance_score": 0.7746
+      },
+      {
+        "citation_id": 3,
+        "source": "gauntlet_of_sorrowfell.md",
+        "page": 1,
+        "type": "document",
+        "excerpt": "in a specific year are therefore not treated as settled information in this article. Readers requiring the authoritative discussion of the disputed forging should consult the [[Annals]] and [[Codex]].\n\nBeyond these points, the surviving record does not establish a fuller chronology. No additional se...",
+        "relevance_score": 0.7632
+      },
+      {
+        "citation_id": 4,
+        "source": "sermon_concerning_the_war_of_drowned_light.pdf",
+        "page": 1,
+        "type": "ephemera",
+        "excerpt": "us stands the Gauntlet of Sorrowfell, regalia of grim authority. Its attunement cost is 12. I\nproclaim that it was forged in 360 AS. Wear it, if you must, as one wears judgment—not as a prize, but as\na burden. Sorrow is not weakness. Sorrow is the weight that keeps the hand from becoming eager.\nSo k...",
+        "relevance_score": 0.7587
+      },
+      {
+        "citation_id": 5,
+        "source": "gauntlet_of_sorrowfell.md",
+        "page": 1,
+        "type": "document",
+        "excerpt": "![Gauntlet of Sorrowfell](images/atmo_relic_artifact_gauntlet_of_sorrowfell.png)\n\n# Gauntlet of Sorrowfell\n\nThe **[[Gauntlet of Sorrowfell]]** is an artifact of the regalia class, distinguished by an atmosphere of sorrow and grim authority. Its attunement cost is **12**. The gauntlet was forged at *...",
+        "relevance_score": 0.753
+      },
+      {
+        "citation_id": 6,
+        "source": "the_ashen_chronicles_volume_ii_the_long_reprisal.pdf",
+        "page": 126,
+        "type": "document",
+        "excerpt": "Ignatz found his voice. “We promised nothing.”\nThe hood turned toward him.\nMaelis felt the Quartermaster shrink, though his shoulder remained pressed against theirs. Born in 425 AS,\nIgnatz Marrowgate had spent enough of his life among inventories, shortages, and locked doors to\nunderstand the arithm...",
+        "relevance_score": 0.7522
+      }
+    ],
+    "images": [
+      "images/atmo_relic_artifact_gauntlet_of_sorrowfell.png"
+    ],
+    "latency_sec": 20.32,
+    "success": true
+  }
+]
