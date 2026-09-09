@@ -9,7 +9,6 @@ data/local_qdrant/
 data/raw/
 qdrant_storage/
 qdrant_db/
-docs/
 
 # Pre-computed compressed embeddings for zero-API Qdrant initialization
 !data/embeddings.npz
